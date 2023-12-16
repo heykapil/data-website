@@ -26,6 +26,6 @@ Thank you for visiting, and I hope you find something valuable here!
 
 You will love to check out the following content:
 
-- [[blog/index|Blog Posts]]
+- [[posts/index|Blog Posts]]
 - [[snippets/index|Snippets]]
 - [[notes/index|Notes]]
