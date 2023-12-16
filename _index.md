@@ -11,10 +11,10 @@ datetimeUpdate: 2023-11-21 13:22:53
 
 <div class="row">
   <div class="column">
-<img alt="banner-left" src="https://notes.heykapil.in/visuals/seasons-country-picnic-in-the-garden-3.webp" style="width:100%">
+<img alt="banner-left" src="https://cdn.kapil.app/images/website/seasons-country-picnic-in-the-garden-3.webp" style="width:100%">
 </div>
  <div class="column">
-<img alt="banner-right" src="https://notes.heykapil.in/visuals/demure-man-programs-on-laptop-while-sitting-in-an-armchair-1.webp" style="width:100%">
+<img alt="banner-right" src="https://cdn.kapil.app/images/website/demure-man-programs-on-laptop-while-sitting-in-an-armchair-1.webp" style="width:100%">
 </div>
 </div>
 
