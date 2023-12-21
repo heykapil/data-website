@@ -1,13 +1,15 @@
 ---
-title: Title of your document
+title: Fetch content from remote repo and sync builds
 author: Kapil Chaudhary
 created: 2023-12-21T13:11
 updated: 2023-12-21T14:26
-description:
-summary:
+description: Fetching the content from a remote repository and sync that at build time, further using github action to trigger the deploy hook as remote content changes.
+summary:  We will fetch the content from a remote repository and sync that at build time, further using github action to trigger the deploy hook.
 image:
 tags:
 ---
+
+We will fetch the content from a remote public repository and sync that at build time, further using github action to trigger the deploy hook as remote content changes.
 
 ```js
 // setup.mjs
