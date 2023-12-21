@@ -25,6 +25,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script for Vercel build of kapil.app
-        run: curl https://api.vercel.com/v1/integrations/deploy/prj_RfeZKzK8L1hnpv3vOCwtZ66IlcRp/F0VXDmCSXC 
-      - name: Run a one-line script for Cloudflare pages of notes.heykapil.in
+        run: curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_RfeZKzK8L1hnpv3vOCwtZ66IlcRp/F0VXDmCSXC 
+      - name: Run a one-line script for Cloudflare pages
         run: curl -X POST https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/10eb2834-8bbb-43c9-a2b8-15a3f8b72a8f
+      - name: Run a one-line script for render pages of notes.heykapil.in
+        run: curl -X POST https://api.render.com/deploy/srv-clunrvug1b2c73c9pglg?key=JjRvnqc1o8k
