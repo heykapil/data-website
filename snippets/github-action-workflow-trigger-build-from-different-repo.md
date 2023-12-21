@@ -1,10 +1,10 @@
 ---
-title: Fetch content from remote
+title: Title of your document
 author: Kapil Chaudhary
-created: 2023-12-21 13:11:31
-updated: 2023-12-21 13:26:33
+created: 2023-12-21T13:11
+updated: 2023-12-21T14:26
 description:
-summary: Fetch content from the remote repo and then use github action workflow to trigger a deploy hook for creating build
+summary:
 image:
 tags:
 ---
