@@ -14,6 +14,17 @@ We will make use of make4ht and pdf2svg to convert the tex document to web html.
    bash prep.sh "figures/*.pdf"
    ```
 
+```bash
+# prep.sh
+#!/bin/bash
+  set -x
+  for file in $1; do
+  filename=${file%.*}
+  pdfcrop --margins 10 --clip "$filename.pdf" "$filename.pdf"
+  pdf2svg "$filename.pdf" "$filename.svg"
+  done
+```
+
 2. Conversion of tex to html
 
 Now run the following command that will convert `example.tex` to a html file `example.html` along with `example.css`.
