@@ -11,7 +11,7 @@ description: This is guide for qualified CSIR JRF candidates who wants to activa
 created: 2023-09-27T15:02
 updated: 2023-12-14T18:14
 id: ca476a9c87
-archived: true
+private: true
 datetimeCreate: 2023-11-06 14:48:44
 datetimeUpdate: 2023-11-07 14:18:36
 ---

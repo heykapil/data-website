@@ -2,7 +2,7 @@
 title: Blog Post
 created: 2023-10-04T13:32
 updated: 2023-12-14T18:14
-archived: true
+private: true
 ---
 
 <!-- # All Blog Posts

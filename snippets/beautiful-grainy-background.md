@@ -7,6 +7,7 @@ tags:
 description: Beautiful Grainy Background using svg
 created: 2023-12-14T18:14
 updated: 2023-12-14T18:14
+private: true
 ---
 
 Credits to [Pedro Duarte](https://ped.ro) and [Delba](https://delba.dev) for this.
