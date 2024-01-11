@@ -41,6 +41,12 @@ updated: 2023-12-14T18:14:00
    IdentityFile ~/.ssh/key-name
 ```
 
+- Sometimes we get a complaint of publicaly accesible private key so we need to hide the private key using chmod command as well.
+
+```bash
+chmod 400 ~/.ssh/key-name
+```
+
 - Once the ssh connection establishes, open a new terminal window.
 - Remove the apache2 files if any left.
 
@@ -68,13 +74,22 @@ updated: 2023-12-14T18:14:00
  sudo apt install nginx
 ```
 
-- Installing `ufw` and create a firewall
+- Installing `ufw` and create a firewall, Make sure to allow ssh port otherwise you will be locked out.
 
 ```bash
  sudo apt install ufw
  sudo ufw enable
+ # enabling firewall
  sudo ufw status
+ # status of ufw firewall
+ sudo ufw allow 22
+ # open ssh port 22
+ sudo ufw allow 'NGinx HTTPS'
+ #  open 443 port for ssl/tls
  sudo ufw allow 'Nginx HTTP'
+ # open 80 port for http
+ sudo ufw allow PORT_NUMBER
+ # open custom PORT_NUMBER
 ```
 
 - Create a new Nginx configuration file for your Next.js application. (name anything you want, i have named it `nextjs.conf`)
@@ -105,7 +120,7 @@ updated: 2023-12-14T18:14:00
 > 1. You can replace external-ip xx.xxx.xxx.xxx with your subdomain/domain if you have pointed the domain in the DNS configuration to this ip address.
 > 2. As NextJS app runs on 3000 port on localhost. So, we are using reverse proxy to listen http port 80 to this.
 
-- Make a symbolic link between site-enabled and site-available configuration files. In case if there is some default or other configuration file then remove these files using rm command.
+- Make a symbolic link between site-enabled and site-available configuration files. In case if there is some default or other configuration file then remove these files using rm command. If symbolic link does not establish due to existing file, force overwriting file using `-sf` flag instad of `-s` flag.
 
 ```bash
  sudo ln -s /etc/nginx/sites-available/nextjs.conf /etc/nginx/sites-enabled/
@@ -164,14 +179,14 @@ cd nextjs
 - Install dependencies, check if the app builds in the remote. Do not forget to add or edit your environment variables if used.
 
 ```bash
- sudo npm install
- sudo npm run build
+sudo npm install
+sudo npm run build
 ```
 
 - If build is successful, run the npm server on 3000 port.
 
 ```bash
- sudo npm start
+sudo npm start
 ```
 
 - Visit the ip address `xx.xxx.xxx.xxx` or your domain / subdomain. If the site is running, well and good otherwise make changes in nginx configuration files.
@@ -179,17 +194,25 @@ cd nextjs
 - Install pm2 which keeps our localhost server running in background.
 
 ```bash
- cd ~
- sudo npm install -g pm2
+cd ~
+sudo npm install -g pm2
 ```
 
 - Change directory to root of source code and create a pm2 process.
 
 ```bash
- cd /var/www/nextjs
- sudo pm2 start npm --name "nextjs" -- start
- sudo pm2 startup
- sudo pm2 save
+cd /var/www/nextjs
+sudo pm2 start npm --name "nextjs" -- start
+sudo pm2 startup
+sudo pm2 save
+```
+
+- List process running on the port (3000 here)!
+
+```bash
+sudo lsof -i:3000
+sudo kill -9 PID # Kill port
+sudo kill -9 $(lsof -i:3000 -t)
 ```
 
 - Installing SSL/HTTPS certificates with certbot. It will issue Letsencrypt free certificate to your domain name (ip-address are not supported). Dry run will simulate the auto-renew process.
@@ -201,8 +224,23 @@ cd nextjs
  sudo certbot renew --dry-run
 ```
 
+- Cerbot will overwrite the nginx configuration files by redirecting traffic to 443 port and defining certificate paths.
+
+- Enabling http2 is very simple, just add `http2`in the listen line under the sever of the configuration file.
+
+```bash
+ sudo nano /etc/nginx/sites-available/nextjs.conf
+```
+
+```conf:nextjs.conf
+server {
+   listen 443 ssl http2;
+    server_name example.com
+    ...
+}
+```
+
 Planned in next post that will discuss about:
 
-- enabling http2
-- serving and caching static contents
+- [Caching static content and Gzip compression](./gzip-browser-cache-nginx)
 - Nginx load balancer

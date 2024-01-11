@@ -9,7 +9,7 @@ created: 2024-01-09T18:14
 updated: 2024-01-09T18:14
 ---
 
-# Digital Ocean Buckets
+Digital Ocean Buckets
 
 - We have to use the command line interface to change the default policy of the digital ocean spaces bucket.
 - Install awscli tool.
@@ -27,7 +27,7 @@ aws configure
 - Check if you are able to reach the bucket or not? Replace your endpoint url with your bucket regional endpoint url.
 
 ```bash
- aws s3 ls --endpoint-url=https://blr1.digitaloceanspaces.com  
+ aws s3 ls --endpoint-url=https://blr1.digitaloceanspaces.com
 ```
 
 - It should return the bucket list. If not then configure with the access id and secret again.
@@ -49,7 +49,6 @@ aws configure
     }
   ]
 }
-
 ```
 
 - Replace the name of bucket with your bucket name.
@@ -57,5 +56,5 @@ aws configure
 - Now put the policy file to change the acl policy of the aws bucket.
 
 ```bash
-aws s3api --endpoint=https://blr1.digitaloceanspaces.com put-bucket-policy --bucket heykapil  --policy file://policy.json   
+aws s3api --endpoint=https://blr1.digitaloceanspaces.com put-bucket-policy --bucket <NAME_OF_BUCKET>  --policy file://policy.json
 ```
