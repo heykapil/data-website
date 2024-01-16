@@ -17,16 +17,15 @@ We will create a nextjs form that uses the server action to submit the form data
 - Create a service account, fill name, description etc, rest options are optional.
 - Once service account is created, click on the three dots under action column of the service account to manage keys.
 - Click on create a new key, select json file to download.
-- This json file will contain the environment variables (private_key, client_email) to connect to the service account.
+- This json file will contain the environment variables (`private_key`, `client_email`) to connect to the service account.
 - Go to home page of the project on the cloud console, click on APIs and service on left side menu, click on library.
 - Search Sheet from the search bar and you’ll get Google Sheet on the first result. Enable it.
 - Go to [google spreadsheet](https://docs.google.com/spreadsheets/create), create a new spreadheet that will receive the form data.
-- Give your sheet a name and save the SPREADSHEET_ID and SHEET_ID from the google sheet URL as enviroment variables.
+- Give your sheet a name and save the `SHEET_ID` from the google sheet URL as enviroment variables.
 - (Important) Share this spreadsheet with the service account email address (check downloaded json) as role of **editor** (if not then with everyone with the link)
 - Add your fields name (make sure these are same as formData id/names from the frontend) as heading in first row of the spreadsheet.
 - Spreadsheet is ready to receive the form data updates.
 - Lets get back to out nextjs project where we will create a form.
-
 - Lets add environment variables that we need
 
 ```txt
@@ -442,4 +441,4 @@ export default function ClientForm() {
 }
 ```
 
-- Include this component in the page. Play and Enjoy! ❤️
+- Include this component in the page. Fill up the form, test, configure and enjoy! ❤️
