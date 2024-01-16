@@ -29,9 +29,8 @@ We will create a nextjs form that uses the server action to submit the form data
 
 - Lets add environment variables that we need
 
-```text
-<!-- .env -->
-FORM_TO_SHEET = "";
+```txt
+// .env
 GOOGLE_PRIVATE_KEY = ""; // from JSON
 GOOGLE_CLIENT_EMAIL = ""; // from JSON
 GOOGLE_SHEET_ID = ""; // from Spreadsheet URL
@@ -155,23 +154,7 @@ export async function sendtoGoogle(formData: FormData) {
 bun add zod react-hook-form react-hook-form-persist @hookform/resolver/zod date-fns
 ```
 
-- Create a form submit button component that will show the pending status of our form.
-
-```tsx
-// components/FormSubmitComponent.jsx
-"use client";
-import { useFormStatus } from "react-dom";
-export function FormSubmitButton({ children, pendingState, ...props }) {
-  const { pending } = useFormStatus();
-  return (
-    <button disabled={pending} {...props}>
-      {pending ? pendingState : children}
-    </button>
-  );
-}
-```
-
-- Write the zod form schema to verify the details of input.
+- Write the zod form schema to check and verify the input details.
 
 ```ts
 // lib/Schema.ts
@@ -198,7 +181,26 @@ export const FormSchema = z.object({
 });
 ```
 
+- Create a form submit button component that will show the pending status of our form.
+
+```tsx
+// components/FormSubmitComponent.jsx
+"use client";
+import { useFormStatus } from "react-dom";
+export function FormSubmitButton({ children, pendingState, ...props }) {
+  const { pending } = useFormStatus();
+  return (
+    <button disabled={pending} {...props}>
+      {pending ? pendingState : children}
+    </button>
+  );
+}
+```
+
+- Write a client side form component that uses the above form scheme and form details and executes the server action.
+
 ```ts
+// components/ClientForm
 "use client";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
@@ -211,9 +213,8 @@ import { useState } from "react";
 import { FormSubmitButton } from "@/components/FormSubmitComponent";
 import { useRouter } from "next/navigation";
 import { FormSchema } from "@/lib/schema";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils"; // classnames joining utility
 import format from "date-fns/format";
-import Image from "next/image";
 
 type FormInput = z.infer<typeof FormSchema>;
 
@@ -253,7 +254,6 @@ export default function ClientForm() {
         className="w-full h-full min-h-full max-w-full mb-8 space-y-1"
         ref={formRef}
         action={async (formData: FormData) => {
-          handleSubmit((d) => console.log(d));
           await sendtoGoogle(formData);
           // router.replace("/thank-you");
         }}
@@ -441,3 +441,5 @@ export default function ClientForm() {
   );
 }
 ```
+
+- Include this component in the page. Play and Enjoy! ❤️
