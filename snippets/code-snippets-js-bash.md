@@ -7,10 +7,9 @@ tags:
   - Next.js
 created: 2024-01-24T18:14
 updated: 2024-01-24T18:14;
-private: true
+archived: true
+title: Some import code bash and js snippets
 ---
-
-# code snippets important
 
 The collection of the important snippets.
 
