@@ -17,7 +17,7 @@ function isEmailValid(email) {
 
 export default function Page() {
   const [email, setEmail] = useState("");
-  const [isValidEmail, setIsValidEmail] = useState(true);
+  const [isValidEmail, setIsValidEmail] = useState(false);
 
   function handleEmailChange(event) {
     const newEmail = event.target.value;
@@ -35,6 +35,24 @@ export default function Page() {
       />
       <button type="submit">Submit</button>
     </form>
+  );
+}
+```
+
+```tsx
+// username containing alphabets and numbers 6 to 16 length
+function testUsername(u: string) {
+  return /^[0-9A-Za-z]{6,16}$/.test(u);
+}
+
+function testPassword(testcase: string) {
+  return (
+    // numbers, alphabets uppercase, lowercase and length 8 to 32
+    /^(?=.*?[0-9])(?=.*?[A-Za-z]).{8,32}$/.test(testcase) &&
+    // (including characters)
+    /^(?=.*?[0-9])(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[^0-9A-Za-z]).{8,32}$/.test(
+      testcase
+    )
   );
 }
 ```
