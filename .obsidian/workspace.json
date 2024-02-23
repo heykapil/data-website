@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "f732ae360b9353bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "89b22dc478dfab7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d828ecf57b73afa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3366df977f2972f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "15e245f7e78eb320",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c617f096b3501d52",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cc79539908040552",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "adf4a7a0183f0808",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f2c3a3c26659652a",
+    "type": "split",
+    "children": [
+      {
+        "id": "70eb97d03a62bd78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15d4d90ee80a67a6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e12a46a38575ef45",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "56047ce12c141d93",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e1ecee9e8649915c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "teaching/Complex Analysis/Casorati–Weierstrass theorem.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "formatto-format:Format Document": false,
+      "latex-ocr:LatexOCR": false
+    }
+  },
+  "active": "6d828ecf57b73afa",
+  "lastOpenFiles": [
+    "teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
+    "teaching/Complex Analysis",
+    "teaching",
+    "Pasted image 20240223122320.png",
+    "Pasted image 20240223122249.png",
+    "politics/msp-issue-farmers-protest-2024-india.md",
+    "snippets/Upload-files-to-Cloudflare-R2-Storage-from-NextJs.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "life",
+    "politics",
+    "snippets/server-action-to-submit-form-data-to-google-sheet.md",
+    "snippets/random-gradient-color-shadow-on-border-of-cards.md",
+    "snippets/python-bif.md",
+    "snippets/mdx-to-html-easy.md",
+    "snippets/lypnov-exponents-caputo.md",
+    "snippets/acl-policy-digital-ocean-s3-aws-cli.md",
+    "posts/Practice-Questions.md",
+    "posts/index.md",
+    "posts/Csir-newfms-guide.md",
+    "Untitled.canvas",
+    "quotes/hindi.md"
+  ]
+}

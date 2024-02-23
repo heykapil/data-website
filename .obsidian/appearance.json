@@ -1,0 +1,10 @@
+{
+  "accentColor": "",
+  "cssTheme": "Things",
+  "monospaceFontFamily": "Source Code Pro",
+  "textFontFamily": "Palatino",
+  "interfaceFontFamily": "Google Sans",
+  "enabledCssSnippets": [
+    "admonition"
+  ]
+}

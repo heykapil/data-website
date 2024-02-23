@@ -1,0 +1,38 @@
+{
+  "userAdmonitions": {
+    "theorem": {
+      "type": "theorem",
+      "color": "#7d7d7d",
+      "icon": {
+        "type": "obsidian",
+        "name": "right-arrow"
+      },
+      "command": false,
+      "title": "Theorem",
+      "injectColor": true,
+      "noTitle": true,
+      "copy": true
+    }
+  },
+  "syntaxHighlight": true,
+  "copyButton": false,
+  "version": "10.2.0",
+  "autoCollapse": true,
+  "defaultCollapseType": "open",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": false,
+  "hideEmpty": true,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": true
+  },
+  "icons": [],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": false,
+  "msDocConverted": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.bd9905"
+}
