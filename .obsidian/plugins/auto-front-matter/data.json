@@ -1,0 +1,46 @@
+{
+  "fieldOptions": [
+    {
+      "name": "created",
+      "actionType": "once",
+      "valueType": "datetimeCreate"
+    },
+    {
+      "name": "id",
+      "actionType": "once",
+      "valueType": "id"
+    },
+    {
+      "name": "author",
+      "actionType": "once",
+      "valueType": "string",
+      "valueOption": {
+        "content": "Kapil Chaudhary"
+      }
+    },
+    {
+      "name": "title",
+      "actionType": "once",
+      "valueType": "title",
+      "valueOption": {
+        "content": ""
+      }
+    },
+    {
+      "name": "updated",
+      "actionType": "once",
+      "valueType": "datetime",
+      "valueOption": {
+        "content": ""
+      }
+    },
+    {
+      "name": "updated",
+      "actionType": "update",
+      "valueType": "datetimeUpdate",
+      "valueOption": {
+        "content": ""
+      }
+    }
+  ]
+}

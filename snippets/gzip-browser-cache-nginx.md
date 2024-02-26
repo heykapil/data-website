@@ -9,7 +9,7 @@ created: 2024-01-11T09:39:03
 updated: 2024-01-11T18:14:00
 ---
 
-This is a follow-up post of the [previous post](./Setting-up-Nginx-server-on-google-cloud-for-web) where we have created a Linux VM instance and used nginx server to host a nextjs application.
+This is a follow-up post of the [previous post](Setting-up-Nginx-server-on-google-cloud-for-web.md) where we have created a Linux VM instance and used nginx server to host a nextjs application.
 
 - Login into your VM with SSH where nginx is running.
 - Create two new files named `browser-cache.conf` and `gzip.conf` under `/etc/nginx/snippets` with the following contents:

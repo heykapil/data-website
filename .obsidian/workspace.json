@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "89b22dc478dfab7d",
+        "id": "2c931d33abea6f27",
         "type": "tabs",
         "children": [
           {
-            "id": "6d828ecf57b73afa",
+            "id": "4988a524b3fc5f03",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "politics/msp-issue-farmers-protest-2024-india.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -64,8 +60,17 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "dac87f0f447f8f36",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -85,9 +90,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "politics/msp-issue-farmers-protest-2024-india.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -102,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "politics/msp-issue-farmers-protest-2024-india.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,17 +127,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "politics/msp-issue-farmers-protest-2024-india.md"
-              }
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,32 +146,58 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "formatto-format:Format Document": false,
-      "latex-ocr:LatexOCR": false
+      "latex-ocr:LatexOCR": false,
+      "remotely-save:Remotely Save": false
     }
   },
-  "active": "6d828ecf57b73afa",
+  "active": "dac87f0f447f8f36",
   "lastOpenFiles": [
-    "teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
-    "teaching/Complex Analysis",
-    "teaching",
-    "Pasted image 20240223122320.png",
-    "Pasted image 20240223122249.png",
-    "politics/msp-issue-farmers-protest-2024-india.md",
+    "Spaces/PhD/Fractional-order derivative.md",
+    "Spaces/Politics/msp-issue-farmers-protest-2024-india.md",
+    "Spaces/Life/Life.md",
+    "Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.md",
+    "Spaces/Spaces.md",
+    "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
+    "Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md",
+    "Spaces/Teaching/Complex Analysis/Meromorphic functions.md",
+    "Spaces/Life/Ritul's second Birthday.md",
+    "Spaces/Teaching/Teaching.md",
+    "Vault.md",
+    "Spaces/Home/Home.md",
+    "Spaces/PhD/PhD.md",
+    "Spaces/PhD",
+    "Spaces/Home",
+    "Spaces",
+    "teaching/Complex Analysis/Casorati–Weierstrass theorem",
+    "snippets/acl-policy-digital-ocean-s3-aws-cli.md",
+    "website/website.md",
+    "website",
+    "quotes/hindi.md",
+    "Spaces/Teaching/MAT405_Linear_2022-23/Notes - 11-01.pdf",
+    "Spaces/Teaching/MAT409_ComplexII_2023-24/Unit Test II.pdf",
+    "Spaces/Teaching/MAT409_ComplexII_2023-24/Solution_Manual.pdf",
+    "Spaces/Teaching/MAT409_ComplexII_2023-24/Solution Unit Test II.pdf",
+    "Spaces/Teaching/MAT409_ComplexII_2023-24/Course_Book.pdf",
+    "_index.md",
+    "README.md",
+    "documents/phd_reg.jpg",
+    "images/website/Welcome.svg",
+    "images/website/logos/tsx.svg",
+    "images/website/logos/css.svg",
+    "images/website/logos/mdx.svg",
+    "images/website/logos/mdx.png",
+    "images/website/logos/css.png",
+    "images/kapiljch-20221008.jpeg",
+    "images/kapiljch-20221120.webp",
+    "images/website/og/ogbg-1.jpeg",
     "snippets/Upload-files-to-Cloudflare-R2-Storage-from-NextJs.md",
     "Untitled.md",
     "Untitled 1.md",
-    "life",
-    "politics",
     "snippets/server-action-to-submit-form-data-to-google-sheet.md",
     "snippets/random-gradient-color-shadow-on-border-of-cards.md",
     "snippets/python-bif.md",
     "snippets/mdx-to-html-easy.md",
     "snippets/lypnov-exponents-caputo.md",
-    "snippets/acl-policy-digital-ocean-s3-aws-cli.md",
-    "posts/Practice-Questions.md",
-    "posts/index.md",
-    "posts/Csir-newfms-guide.md",
-    "Untitled.canvas",
-    "quotes/hindi.md"
+    "Untitled.canvas"
   ]
 }

@@ -58,3 +58,4 @@ aws configure
 ```bash
 aws s3api --endpoint=https://blr1.digitaloceanspaces.com put-bucket-policy --bucket <NAME_OF_BUCKET>  --policy file://policy.json
 ```
+

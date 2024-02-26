@@ -242,5 +242,5 @@ server {
 
 Planned in next post that will discuss about:
 
-- [Caching static content and Gzip compression](./gzip-browser-cache-nginx)
+- [Caching static content and Gzip compression](gzip-browser-cache-nginx.md)
 - Nginx load balancer

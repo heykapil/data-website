@@ -1,12 +1,26 @@
 {
   "showTitle": false,
   "maxLevel": "6",
-  "displayHeader": false,
-  "displayFooter": false,
-  "headerTemplate": "<div style=\"width: 100vw;font-size:10px;text-align:center;\"><span class=\"title\"></span></div>",
-  "footerTemplate": "<div style=\"width: 100vw;font-size:10px;text-align:center;\"><span class=\"pageNumber\"></span> / <span class=\"totalPages\"></span></div>",
+  "displayHeader": true,
+  "displayFooter": true,
+  "headerTemplate": "<div style=\"width:100%;\">\n<div style=\"display:flex\"><div style=\"width:100vw;font-size:10px;display:flex;flex-direction:row;justify-content: space-between; border-bottom: solid thin black; margin: 0em 2.37em;\">\n<div style=\"display:flex\">\n<span class=\"date\"></span>\n</div>\n<div style=\"display:flex\">\n<span class=\"title\" style=\"font-weight:normal;\"></span>\n</div>\n<div style=\"display:flex\">\n<span>Page <span class=\"pageNumber\"></span></span> / <span class=\"totalPages\"></span>\n</div>\n</div>\n</div>\n</div>",
+  "footerTemplate": "<div style=\"width: 100vw;font-size:10px;text-align:center;\"><span>Page <span class=\"pageNumber\"></span></span> / <span class=\"totalPages\"></span></div>",
   "printBackground": false,
   "generateTaggedPDF": false,
-  "displayMetadata": true,
-  "debug": false
+  "displayMetadata": false,
+  "debug": false,
+  "prevConfig": {
+    "pageSise": "A4",
+    "marginType": "3",
+    "showTitle": false,
+    "open": true,
+    "scale": 100,
+    "landscape": false,
+    "marginTop": "17.5",
+    "marginBottom": "17.5",
+    "marginLeft": "10",
+    "marginRight": "10",
+    "displayHeader": true,
+    "displayFooter": false
+  }
 }
