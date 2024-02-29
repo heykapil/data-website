@@ -8,7 +8,7 @@
   "azureOpenAIApiDeploymentName": "",
   "azureOpenAIApiVersion": "",
   "azureOpenAIApiEmbeddingDeploymentName": "",
-  "googleApiKey": "AIzaSyB8Iuho6Xp37uAevqZfrclKXqkR8wLe324",
+  "googleApiKey": "123",
   "openRouterAiApiKey": "",
   "openRouterModel": "cognitivecomputations/dolphin-mixtral-8x7b",
   "defaultModel": "gemini-pro",
