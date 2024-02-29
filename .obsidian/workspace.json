@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f8187fc456c7ed6c",
+        "id": "1ff1d0801df8dabd",
         "type": "tabs",
         "children": [
           {
-            "id": "08c0d8a358e25308",
+            "id": "c6b9d3fdac0fde35",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "Attachments"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -72,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -131,17 +129,9 @@
               "type": "outline",
               "state": {}
             }
-          },
-          {
-            "id": "c3e3af7225a08ce8",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -161,9 +151,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "dac87f0f447f8f36",
+  "active": "c6b9d3fdac0fde35",
   "lastOpenFiles": [
     "Screenshot 2024-02-28 at 1.39.26 PM.png",
+    "2024-02-29.md",
+    "Untitled.canvas",
     "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
     "Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md",
     "Spaces/Teaching/Complex Analysis/Holomorphic and Meromorphic functions.md",
@@ -201,13 +193,11 @@
     "Vault.md",
     "Spaces/Home/Home.md",
     "Spaces/PhD/PhD.md",
-    "snippets/acl-policy-digital-ocean-s3-aws-cli.md",
     "documents/phd_reg.jpg",
     "images/website/Welcome.svg",
     "images/website/logos/tsx.svg",
     "images/website/logos/css.svg",
     "images/website/logos/mdx.svg",
-    "images/website/logos/mdx.png",
-    "Untitled.canvas"
+    "images/website/logos/mdx.png"
   ]
 }
