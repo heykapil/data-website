@@ -1,7 +1,6 @@
 [
   "hk-code-block",
   "mlir-syntax-highlight",
-  "obsidian-git",
   "better-export-pdf",
   "formatto-format",
   "obsidian-admonition",
@@ -19,5 +18,6 @@
   "obsidian-image-layouts",
   "obsidian-tikzjax",
   "better-mathjax",
-  "obsidian-latex"
+  "obsidian-latex",
+  "yet-another-obsidian-synchronizer"
 ]
