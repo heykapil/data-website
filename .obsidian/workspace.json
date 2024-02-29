@@ -147,7 +147,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "yet-another-obsidian-synchronizer:YAOS": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -156,8 +155,7 @@
       "command-palette:Open command palette": false,
       "formatto-format:Format Document": false,
       "latex-ocr:LatexOCR": false,
-      "remotely-save:Remotely Save": false,
-      "copilot:Copilot Chat": false
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "bef972986b4f6032",
