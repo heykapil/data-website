@@ -11,11 +11,9 @@
             "id": "08c0d8a358e25308",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
-                "mode": "source",
-                "source": false
+                "path": "Attachments"
               }
             }
           }
@@ -94,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +129,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md"
-              }
+              "state": {}
             }
           },
           {
@@ -169,13 +163,13 @@
   },
   "active": "08c0d8a358e25308",
   "lastOpenFiles": [
+    "Screenshot 2024-02-28 at 1.39.26 PM.png",
+    "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
     "Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md",
     "Spaces/Teaching/Complex Analysis/Holomorphic and Meromorphic functions.md",
     "quotes/hindi.md",
-    "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
     "posts/Practice-Questions.md",
     "posts/Csir-newfms-guide.md",
-    "Screenshot 2024-02-28 at 1.39.26 PM.png",
     "Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.md",
     "preamble.sty",
     "symbols.md",
@@ -208,7 +202,6 @@
     "Spaces/Home/Home.md",
     "Spaces/PhD/PhD.md",
     "snippets/acl-policy-digital-ocean-s3-aws-cli.md",
-    "website/website.md",
     "documents/phd_reg.jpg",
     "images/website/Welcome.svg",
     "images/website/logos/tsx.svg",
