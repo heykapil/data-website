@@ -11,8 +11,12 @@
             "id": "c6b9d3fdac0fde35",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md"
+              }
             }
           },
           {
@@ -155,21 +163,23 @@
       "command-palette:Open command palette": false,
       "formatto-format:Format Document": false,
       "latex-ocr:LatexOCR": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "bef972986b4f6032",
+  "active": "c6b9d3fdac0fde35",
   "lastOpenFiles": [
+    "Attachments/Screenshot 2024-02-28 at 1.39.26 PM.png",
+    "Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md",
+    "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
+    "Spaces/Teaching/Complex Analysis/Holomorphic and Meromorphic functions.md",
+    "Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.md",
     "Screenshot 2024-02-28 at 1.39.26 PM.png",
     "2024-02-29.md",
     "Untitled.canvas",
-    "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
-    "Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md",
-    "Spaces/Teaching/Complex Analysis/Holomorphic and Meromorphic functions.md",
     "quotes/hindi.md",
     "posts/Practice-Questions.md",
     "posts/Csir-newfms-guide.md",
-    "Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.md",
     "preamble.sty",
     "symbols.md",
     "snippet.json.sb-a03e4d3b-tgm6Mc",
@@ -178,7 +188,6 @@
     "preamble~.tex",
     "preamble.tex",
     "Attachments/kapil credentials.txt",
-    "Attachments/Screenshot 2024-02-28 at 1.39.26 PM.png",
     "Attachments",
     "untitled folder",
     "Screenshot.md",

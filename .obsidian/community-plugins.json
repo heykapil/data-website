@@ -18,5 +18,6 @@
   "obsidian-tikzjax",
   "better-mathjax",
   "obsidian-latex",
-  "obsidian-git"
+  "obsidian-git",
+  "copilot"
 ]
