@@ -40,8 +40,11 @@
     "Spaces/Home/Spaces/Home/PHD",
     "Spaces/Home/Spaces/Home/PHD",
     "//Spaces/Spaces/Home/Spaces/Home/PHD",
-    "//Spaces/Spaces/Home",
-    "//Spaces/Spaces/PHD"
+    "//Spaces/Spaces/PHD",
+    "//output",
+    "//Spaces/Spaces/Teaching",
+    "//Spaces/Spaces/Teaching/Spaces/Teaching/Complex Analysis",
+    "//Spaces"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

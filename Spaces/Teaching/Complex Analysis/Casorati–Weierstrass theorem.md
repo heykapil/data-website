@@ -1,11 +1,11 @@
 ---
 id: 18ea6fb7-1267-441c-8d6c-53c7d10f3eee
 title: Casorati–Weierstrass theorem
+author: Kapil Chaudhary
 created: 2024-02-23T11:54:00
 updated: 2024-02-25 21:56:32
-author: Kapil Chaudhary
 ---
-This theorem tells the behaviour of a holomorphic function $f$ near isolated essential singularities. In Russian literature, it is called Sokhotski's theorem.
+This theorem tells the behaviour of a holomorphic function $f$ near isolated essential singularities. In Russian literature, it is called Sokhotski's theorem. 
 
 ```ad-theorem 
 title: **Casorati-Weirstrass theorem**
@@ -42,11 +42,8 @@ $$\tag*{\textbf{Q.E.D.}}$$
 
 ---
 
-
-
-#### Questions: 
-1. Explain the behaviour of $\sin(1/z)$ near $z=0$.
-2. 
+*<span style='color:var(--mk-color-red)'>(WIP)</span>* ***Questions:*** 
+1. Explain the behaviour of $\sin(1/z)$ near $z=0$.  
 
 
 ---
@@ -55,3 +52,4 @@ $$\tag*{\textbf{Q.E.D.}}$$
 - Brown and Churchil Book (8th edition)
 - Notes of J. Orloff (MIT open courseware)
 - [Wikipedia](https://en.wikipedia.org/wiki/Casorati–Weierstrass_theorem)
+- 

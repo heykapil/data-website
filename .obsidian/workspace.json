@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "2c931d33abea6f27",
+        "id": "f8187fc456c7ed6c",
         "type": "tabs",
         "children": [
           {
-            "id": "4988a524b3fc5f03",
+            "id": "08c0d8a358e25308",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -127,11 +133,21 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md"
+              }
+            }
+          },
+          {
+            "id": "c3e3af7225a08ce8",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
               "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -147,57 +163,58 @@
       "command-palette:Open command palette": false,
       "formatto-format:Format Document": false,
       "latex-ocr:LatexOCR": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "dac87f0f447f8f36",
+  "active": "08c0d8a358e25308",
   "lastOpenFiles": [
+    "Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md",
+    "Spaces/Teaching/Complex Analysis/Holomorphic and Meromorphic functions.md",
+    "quotes/hindi.md",
+    "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
+    "posts/Practice-Questions.md",
+    "posts/Csir-newfms-guide.md",
+    "Screenshot 2024-02-28 at 1.39.26 PM.png",
+    "Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.md",
+    "preamble.sty",
+    "symbols.md",
+    "snippet.json.sb-a03e4d3b-tgm6Mc",
+    "snippet.json",
+    "untitled",
+    "preamble~.tex",
+    "preamble.tex",
+    "Attachments/kapil credentials.txt",
+    "Attachments/Screenshot 2024-02-28 at 1.39.26 PM.png",
+    "Attachments",
+    "untitled folder",
+    "Screenshot.md",
+    "snippets/Setting-up-Nginx-server-on-google-cloud-for-web.md",
+    "snippets/Untitled.md",
+    "Screenshot 2024-02-28 at 1.39.26 PM 1.png",
+    "Screenshot 2024-02-28 at 1.39.26 PM.png",
+    "Paste.md",
+    "Spaces/Teaching/Complex Analysis/Complex Analysis.md",
     "Spaces/PhD/Fractional-order derivative.md",
+    "Spaces/PhD/Untitled.md",
+    "Spaces/Teaching/MAT409_ComplexII_2023-24/Unit Test II.pdf",
+    "Spaces/Politics/Politics.md",
     "Spaces/Politics/msp-issue-farmers-protest-2024-india.md",
     "Spaces/Life/Life.md",
-    "Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.md",
     "Spaces/Spaces.md",
-    "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
-    "Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md",
-    "Spaces/Teaching/Complex Analysis/Meromorphic functions.md",
     "Spaces/Life/Ritul's second Birthday.md",
     "Spaces/Teaching/Teaching.md",
     "Vault.md",
     "Spaces/Home/Home.md",
     "Spaces/PhD/PhD.md",
-    "Spaces/PhD",
-    "Spaces/Home",
-    "Spaces",
-    "teaching/Complex Analysis/Casorati–Weierstrass theorem",
     "snippets/acl-policy-digital-ocean-s3-aws-cli.md",
     "website/website.md",
-    "website",
-    "quotes/hindi.md",
-    "Spaces/Teaching/MAT405_Linear_2022-23/Notes - 11-01.pdf",
-    "Spaces/Teaching/MAT409_ComplexII_2023-24/Unit Test II.pdf",
-    "Spaces/Teaching/MAT409_ComplexII_2023-24/Solution_Manual.pdf",
-    "Spaces/Teaching/MAT409_ComplexII_2023-24/Solution Unit Test II.pdf",
-    "Spaces/Teaching/MAT409_ComplexII_2023-24/Course_Book.pdf",
-    "_index.md",
-    "README.md",
     "documents/phd_reg.jpg",
     "images/website/Welcome.svg",
     "images/website/logos/tsx.svg",
     "images/website/logos/css.svg",
     "images/website/logos/mdx.svg",
     "images/website/logos/mdx.png",
-    "images/website/logos/css.png",
-    "images/kapiljch-20221008.jpeg",
-    "images/kapiljch-20221120.webp",
-    "images/website/og/ogbg-1.jpeg",
-    "snippets/Upload-files-to-Cloudflare-R2-Storage-from-NextJs.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "snippets/server-action-to-submit-form-data-to-google-sheet.md",
-    "snippets/random-gradient-color-shadow-on-border-of-cards.md",
-    "snippets/python-bif.md",
-    "snippets/mdx-to-html-easy.md",
-    "snippets/lypnov-exponents-caputo.md",
     "Untitled.canvas"
   ]
 }

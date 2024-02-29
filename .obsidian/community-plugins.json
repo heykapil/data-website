@@ -6,9 +6,18 @@
   "formatto-format",
   "obsidian-admonition",
   "latex-ocr",
-  "better-mathjax",
   "obsidian-completr",
   "auto-front-matter",
   "remotely-save",
-  "make-md"
+  "make-md",
+  "obsidian-linter",
+  "obsidian-languagetool-plugin",
+  "various-complements",
+  "obsidian-latex-suite",
+  "wordwise",
+  "copilot",
+  "obsidian-image-layouts",
+  "obsidian-tikzjax",
+  "better-mathjax",
+  "obsidian-latex"
 ]

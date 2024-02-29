@@ -28,7 +28,6 @@ datetimeUpdate: 2023-11-07 14:19:04
    - $\phi(u,v) = 5x_1y_1 -3x_1y_2 -3x_2y_1+ 8x_2y_2.  S = \{(1,1),(1,-1)\} \text{ and } \widetilde S=\{(1,2),(2,1)\}$
    - $\phi(u,v) = 4x_1y_1 -3x_1y_2 + 2x_2y_1 .$ $S = \{(1,0),(1,2)\} \text{ and } \widetilde S=\{(0,1),(1,1)\}$ .
 
-3. Prove that for any $n$-dimensional vector space $V$ over field $F$,
-   $$ \phi*{i,j} (u,v) = f_i (u) f_j (v) \text{ for all } u, v \in V $$
-   Then set $\{ \phi*{i,j} \mid i,j=1,2,3,\cdots ,n \}$ forms a basis of space $B(V)$ of bilinear forms on $V$ ,
+3. Prove that for any $n$-dimensional vector space $V$ over field $F$, $$ \phi_{i,j} (u,v) = f_i (u) f_j (v) \text{ for all } u, v \in V $$
+   Then set $\{ \phi_{i,j} \mid i,j=1,2,3,\cdots ,n \}$ forms a basis of space $B(V)$ of bilinear forms on $V$ ,
    where $\{f_i \mid i=1,2,3,\cdots,n \}$ is a basis of dual space $V^{*}$.

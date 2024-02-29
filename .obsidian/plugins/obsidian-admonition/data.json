@@ -12,6 +12,19 @@
       "injectColor": true,
       "noTitle": true,
       "copy": true
+    },
+    "def": {
+      "type": "def",
+      "color": "#7d7d7d",
+      "icon": {
+        "type": "obsidian",
+        "name": "right-arrow"
+      },
+      "command": false,
+      "title": "Definition",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
     }
   },
   "syntaxHighlight": true,

@@ -6,5 +6,6 @@
   "interfaceFontFamily": "Google Sans",
   "enabledCssSnippets": [
     "admonition"
-  ]
+  ],
+  "baseFontSize": 14
 }

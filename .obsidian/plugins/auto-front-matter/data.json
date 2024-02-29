@@ -3,7 +3,7 @@
     {
       "name": "created",
       "actionType": "once",
-      "valueType": "datetimeCreate"
+      "valueType": "datetime"
     },
     {
       "name": "id",
@@ -38,6 +38,14 @@
       "name": "updated",
       "actionType": "update",
       "valueType": "datetimeUpdate",
+      "valueOption": {
+        "content": ""
+      }
+    },
+    {
+      "name": "created",
+      "actionType": "once",
+      "valueType": "datetimeCreate",
       "valueOption": {
         "content": ""
       }
