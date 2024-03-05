@@ -4,7 +4,6 @@
   "better-export-pdf",
   "formatto-format",
   "obsidian-admonition",
-  "latex-ocr",
   "obsidian-completr",
   "auto-front-matter",
   "remotely-save",
@@ -19,5 +18,9 @@
   "better-mathjax",
   "obsidian-latex",
   "obsidian-git",
-  "copilot"
+  "copilot",
+  "consistent-attachments-and-links",
+  "obisidian-note-linker",
+  "todoist-sync-plugin",
+  "obsidian-columns"
 ]

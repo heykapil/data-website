@@ -42,14 +42,9 @@ $$\tag*{\textbf{Q.E.D.}}$$
 
 ---
 
-*<span style='color:var(--mk-color-red)'>(WIP)</span>* ***Questions:*** 
-1. Explain the behaviour of $\sin(1/z)$ near $z=0$.  
+Next Reading: [[Picard's theorem]] 
 
 
----
-
-##### References
-- Brown and Churchil Book (8th edition)
-- Notes of J. Orloff (MIT open courseware)
-- [Wikipedia](https://en.wikipedia.org/wiki/Casorati–Weierstrass_theorem)
-- 
+***Questions:*** 
+-  Explain the behaviour of $\sin(1/z)$ near $z=0$.  
+- [[WIP]]

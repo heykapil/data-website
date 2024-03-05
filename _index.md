@@ -27,6 +27,6 @@ Thank you for visiting, and I hope you find something valuable here!
 
 You will love to check out the following content:
 
-- [[posts/index|Blog Posts]]
-- [[snippets/index|Snippets]]
-- [[notes/index|Notes]]
+- [Blog Posts](posts/index.md)
+- [Snippets](snippets/index.md)
+- [Notes](notes/index)

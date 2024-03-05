@@ -76,7 +76,7 @@ updated: 2023-12-14T18:14
   TEBI_UPLOAD_REGION="global"
   ```
 
-Now follow the steps as in [[Upload files to Cloudflare R2 Storage from NextJs]]
+Now follow the steps as in [Upload files to Cloudflare R2 Storage from NextJs](Upload%20files%20to%20Cloudflare%20R2%20Storage%20from%20NextJs)
 
 - Api endpoint will be something like this:
 

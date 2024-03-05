@@ -3,24 +3,24 @@
   "maxLevel": "6",
   "displayHeader": true,
   "displayFooter": true,
-  "headerTemplate": "<div style=\"width:100%;\">\n<div style=\"display:flex\"><div style=\"width:100vw;font-size:10px;display:flex;flex-direction:row;justify-content: space-between; border-bottom: solid thin black; margin: 0em 2.37em;\">\n<div style=\"display:flex\">\n<span class=\"date\"></span>\n</div>\n<div style=\"display:flex\">\n<span class=\"title\" style=\"font-weight:normal;\"></span>\n</div>\n<div style=\"display:flex\">\n<span>Page <span class=\"pageNumber\"></span></span> / <span class=\"totalPages\"></span>\n</div>\n</div>\n</div>\n</div>",
-  "footerTemplate": "<div style=\"width: 100vw;font-size:10px;text-align:center;\"><span>Page <span class=\"pageNumber\"></span></span> / <span class=\"totalPages\"></span></div>",
+  "headerTemplate": "<div style=\"width:100%;\">\n<div style=\"display:flex\"><div style=\"width:100vw;font-size:10px;display:flex;flex-direction:row;justify-content: space-between; border-bottom: none; margin: 0em 4.74em;\">\n<div style=\"display:flex\">\n<span class=\"date\"></span>\n</div>\n<div style=\"display:flex\">\n<span class=\"title\" style=\"font-style:oblique\"></span>\n</div>\n<div style=\"display:flex\">\n<span>Page <span class=\"pageNumber\"></span></span> / <span class=\"totalPages\"></span>\n</div>\n</div>\n</div>\n</div>",
+  "footerTemplate": "<div style=\"width:100%;\">\n<div style=\"display:flex\"><div style=\"width:100vw;font-size:10px;display:flex;flex-direction:row;justify-content: space-between; border-bottom: none; margin: 0em 3.74em;\">\n<div style=\"display:flex\">\n<span class=\"date\"></span>\n</div>\n<div style=\"display:flex\">\n<span class=\"title\" style=\"font-style:oblique;\"></span>\n</div>\n<div style=\"display:flex\">\n<span>Page <span class=\"pageNumber\"></span></span> / <span class=\"totalPages\"></span>\n</div>\n</div>\n</div>\n</div>",
   "printBackground": false,
   "generateTaggedPDF": false,
   "displayMetadata": false,
-  "debug": false,
+  "debug": true,
   "prevConfig": {
     "pageSise": "A4",
     "marginType": "3",
-    "showTitle": false,
+    "showTitle": true,
     "open": true,
     "scale": 100,
     "landscape": false,
-    "marginTop": "17.5",
+    "marginTop": "5",
     "marginBottom": "17.5",
-    "marginLeft": "10",
-    "marginRight": "10",
-    "displayHeader": true,
-    "displayFooter": false
+    "marginLeft": "5",
+    "marginRight": "5",
+    "displayHeader": false,
+    "displayFooter": true
   }
 }

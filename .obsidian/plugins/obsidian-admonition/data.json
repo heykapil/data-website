@@ -25,6 +25,17 @@
       "injectColor": true,
       "noTitle": false,
       "copy": false
+    },
+    "lemma": {
+      "type": "lemma",
+      "color": "#7d7d7d",
+      "icon": {
+        "type": "obsidian",
+        "name": "right-arrow"
+      },
+      "command": false,
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": true,

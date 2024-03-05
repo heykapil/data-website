@@ -32,8 +32,7 @@ title: Theorem
 The only meromorphic functions on $\C_\infty$ are the rational functions (quotient of two polynomials).
 ```
 
-*Proof:* <span style='color:var(--mk-color-blue)'>WIP</span>
-
+*Proof:*  [[WIP]]
 $$\tag*{Q.E.D.}$$
 
 ---

@@ -56,10 +56,6 @@ This gives, for $\displaystyle z\neq z_0, f(z) = \frac{g(z)}{(z-z_0)^2}$ gives $
 
 Hence, $z_0$ is a removable singularity of $f$.
 $$\tag*{Q.E.D.}$$
-
-
-
-
 ---
 
 **Questions**
@@ -67,14 +63,7 @@ $$\tag*{Q.E.D.}$$
 1.  Show that $\displaystyle z=\pm \frac{\pi}{2}$ are isolated removable singularity of $\displaystyle  f(z)= \frac{\cos(z)}{z^2- \left( \frac{\pi}{2} \right)^2}$.
 2. Find an entire function $g$ such that $g(z) = f(z)$ for $z\neq \pm \pi/2$
 
-
-
-
-
-
-
-
-
+[[WIP]] 
 
 ---
 **References**
