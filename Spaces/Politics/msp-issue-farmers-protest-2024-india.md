@@ -8,10 +8,8 @@ category: Politics
 draft: "true"
 ---
 
-```ad-info
-title: Disclaimer
-These are my personal views evaluating the current status of the farmers protests, their demands and government stance on this issue. Some may agree or disagree fully (or partially) with these but i welcome the comments.
-```
+> [!info] Disclaimer
+> These are my personal views evaluating the current status of the farmers protests, their demands and government stance on this issue. Some may agree or disagree fully (or partially) with these but i welcome the comments.
 
 
 ---

@@ -1,9 +1,7 @@
 [
   "hk-code-block",
   "mlir-syntax-highlight",
-  "better-export-pdf",
   "formatto-format",
-  "obsidian-admonition",
   "obsidian-completr",
   "auto-front-matter",
   "remotely-save",
@@ -22,5 +20,12 @@
   "consistent-attachments-and-links",
   "obisidian-note-linker",
   "todoist-sync-plugin",
-  "obsidian-columns"
+  "obsidian-columns",
+  "inline-math",
+  "math-booster",
+  "mathlinks",
+  "css-editor",
+  "obsidian-admonition",
+  "obsidian-enhancing-export",
+  "obsidian-export-image"
 ]

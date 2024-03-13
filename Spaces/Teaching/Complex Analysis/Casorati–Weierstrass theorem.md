@@ -7,18 +7,16 @@ updated: 2024-02-25 21:56:32
 ---
 This theorem tells the behaviour of a holomorphic function $f$ near isolated essential singularities. In Russian literature, it is called Sokhotski's theorem. 
 
-```ad-theorem 
-title: **Casorati-Weirstrass theorem**
-Consider $z_0$ be an isolated essential singularity of a function $f$ then for each positive number $\epsilon, \delta$ and any complex number $w_0$
-
-$$\lvert f(z)-w_0\rvert < \epsilon \hspace{2cm} \text{ whenever } 0<\lvert z - z_0 \rvert < \delta.$$
-
-In other words, $f$ approaches arbitirarly close to any complex number $w_0$ in  any deleted neighbourhood of the isolated essential singularity $z_0$. 
-
-In other words, for any complex number $w_0$, there exists a sequence $\{ z_n\}$ in every deleted $\delta$-neighbourhood of $z_0$ such that $z_n \xrightarrow{n \rightarrow \infty} z_0$ then $f(z_n) \xrightarrow{n \rightarrow \infty} w_0$.
-
-In other words, if $V$ is any neighbourhood of $z_0$ then $f(V - \{z_0\})$ is dense in $\mathbb{C}$.
-```
+> [!theorem] **Casorati-Weirstrass theorem**
+> Consider $z_0$ be an isolated essential singularity of a function $f$ then for each positive number $\epsilon, \delta$ and any complex number $w_0$
+> 
+> $$\lvert f(z)-w_0\rvert < \epsilon \hspace{2cm} \text{ whenever } 0<\lvert z - z_0 \rvert < \delta.$$
+> 
+> In other words, $f$ approaches arbitirarly close to any complex number $w_0$ in  any deleted neighbourhood of the isolated essential singularity $z_0$. 
+> 
+> In other words, for any complex number $w_0$, there exists a sequence $\{ z_n\}$ in every deleted $\delta$-neighbourhood of $z_0$ such that $z_n \xrightarrow{n \rightarrow \infty} z_0$ then $f(z_n) \xrightarrow{n \rightarrow \infty} w_0$.
+> 
+> In other words, if $V$ is any neighbourhood of $z_0$ then $f(V - \{z_0\})$ is dense in $\mathbb{C}$.
 
 *Proof:*  We prove this by the contradiction. Since $z_0$ is an isolated singularity of $f$, there is a deleted neighbourhood $N_{\delta}(z_0)= \{0<\lvert z-z_0\rvert <\delta \}$ throughout which $f$ is analytic.
 

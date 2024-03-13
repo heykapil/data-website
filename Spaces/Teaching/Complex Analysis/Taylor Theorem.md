@@ -5,20 +5,20 @@ author: Kapil Chaudhary
 title: Taylor Theorem
 updated: 2024-03-04 14:29:28
 ---
-```ad-theorem
-title: Taylor theorem
-Suppose $f$ be a [[Holomorphic and Meromorphic functions | holomorphic]] function thoroughout a open disc $|z-z_{0}|<R$ centered at $z_0$ and radius $R$ then $f$ has a unique power series representation (often called as **Taylor series of $f$ about $z_0$**),
+This theorem comes under the consequence of the Cauchy-Integral formula and explains the analyticity of the holomorphic functions that they can be represented by a convergent series.
 
-$$f(z)=\sum^{\infty}_{n=1}a_{n}(z-z_{0})^n; \hspace{2em} \text{ valid for } |z-z_{0}|<R$$
-
-where the coefficient $a_n$ are given by
-
-$$a_n = \frac{f^{(n)}(z_{0})}{n!} \hspace{2em} \text{ for each } n\in \N \cup \{0\}$$
-In other words, Taylor series of $f$ converges to $f(z)$ in the mentioned open disk.
-
-**Special Case:** *For $z_0 =0$, The Taylor series is usually called **Maclaurrin series.** *
-
-```
+> [!theorem] Taylor theorem
+> Suppose $f$ be a [[Holomorphic and Meromorphic functions | holomorphic]] function thoroughout a open disc $|z-z_{0}|<R$ centered at $z_0$ and radius $R$ then $f$ has a unique power series representation (often called as **Taylor series of $f$ about $z_0$**),
+> 
+> $f(z)=\sum^{\infty}_{n=1}a_{n}(z-z_{0})^n; \hspace{2em} \text{ valid for } |z-z_{0}|<R$
+> 
+> where the coefficient $a_n$ are given by
+> 
+> $a_n = \frac{f^{(n)}(z_{0})}{n!} \hspace{2em} \text{ for each } n\in \N \cup \{0\}$
+> In other words, Taylor series of $f$ converges to $f(z)$ in the mentioned open disk.
+> 
+> **Special Case:** *For $z_0 =0$, The Taylor series is usually called **Maclaurin series.** *
+> 
 
 
 *Proof:* We divide the proof in two cases, $z_0 =0$ and $z_0 \neq 0$.
@@ -75,11 +75,14 @@ f(z) &= \frac{1}{2\pi i} \int _{|w|=R} \frac{f(w)}{w-z} \, dw \\
 ---
 **Alternative Short Proof:** Since $|z-z_{0}|<R=|w-z_{0}| \implies |\frac{(z-z_{0})}{(w-z_{0})}\rvert<1$,
 $$ \frac{1}{w-z} = \frac{1}{w-z_{0}-(z-z_{0})} =\frac{1}{w-z_{0}} \cdot \frac{1}{1- \frac{z-z_{0}}{w-z_{0}} } = \frac{1}{w-z_{0}}\cdot \sum^{\infty}_{n=0} \left(\frac{z-z_{0}}{w-z_{0}}\right)^n.$$
-Using Cauchy-Integral formula,
+
+Since infinite summations that are absolutely and uniformly convergent can be interchanged with integration operations, Using [[Cauchy-Integral Formula]],
  $$\begin{align}
 f(z) &= \frac{1}{2 \pi i} \int _{|w-z_{0}|=R} \frac{f(w)}{w-z} \, dw  \\
 &= \frac{{1}}{2 \pi i} \int _{|w-z_{0}|=R} \frac{f(w)}{w-z_{0}} \cdot \sum^{\infty}_{n=0} \left(\frac{z-z_{0}}{w-z_{0}}\right)^n \, dw  \\
 &= \sum^{\infty}_{n=0} \left(\frac{1}{2 \pi i}\int_{|w-z_{0}|=R} \frac{f(w)}{(w-z_{0})^{n+1}} \, dw  \right)(z-z_{0})^n \\
 &= \sum^{\infty}_{n=0} \frac{f^{(n)}(z_{0})}{n!}(z-z_{0})^n &&
 \end{align}$$
+which is precisely the expansion we were after.
 $$\tag*{Q.E.D.}$$
+**Remark:** Uniqueness of the Taylor series of $f$ about $z_0$ is established by the uniquely determined coefficients $$a_{n} = \frac{f^{(n)}(z_{0})}{n!}; \hspace{2em } \text{ for each } n \in \N \cup \{ 0\}.$$

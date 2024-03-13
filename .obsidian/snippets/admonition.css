@@ -3,3 +3,13 @@
     border: 0.05rem solid #737373;
     border-radius: 0.3rem;
  }
+
+.theorem-callout {
+    --callout-color: var(--text-normal);
+    border: 0.05rem solid #737373 !important;
+    border-radius: 0.3rem;
+    }
+
+.math-booster-begin-proof {
+    font: italic normal 14px/30px serif;
+}

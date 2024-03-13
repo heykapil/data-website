@@ -8,17 +8,15 @@ author: Kapil Chaudhary
 This theorem tells the local behaviour of a function near the isolated removable singularity.  It states that the function is analytic and bounded in the deleted neighbourhood of the removable singularity. <span style='color:var(--mk-color-green)'>***Converse of this statement is also true.***</span> If we redefine the value of the function at the point of removable singularity, then we can make the redefined function holomorphic, bounded, continuous in the neighbourhood of the removable singularity.
 
 
-```ad-theorem
-title: Riemann Theorem
-
-Let $D$ is an open subset of $\mathbb{C}$, $z_0 \in D$ and $f$ be an holomorphic function on set $D-\{z_0\}$ then following are equivalent:
-
-1. $z_0$ is an isolated removable singularity of $f$.
-2. $f$ is holomorphicaly and continuously extendible over $z_0$. Further, this extendible function is unique.
-3. $\exists$ a neighbourhood of $z_0$ where $f$ is bounded.
-4. $\lim\limits_{z \rightarrow z_0} (z-z_0)f(z) =0$. 
-
-```
+> [!theorem] Riemann Theorem
+> 
+> Let $D$ is an open subset of $\mathbb{C}$, $z_0 \in D$ and $f$ be an holomorphic function on set $D-\{z_0\}$ then following are equivalent:
+> 
+> 1. $z_0$ is an isolated removable singularity of $f$.
+> 2. $f$ is holomorphicaly and continuously extendible over $z_0$. Further, this extendible function is unique.
+> 3. $\exists$ a neighbourhood of $z_0$ where $f$ is bounded.
+> 4. $\lim\limits_{z \rightarrow z_0} (z-z_0)f(z) =0$. 
+> 
 
 *Proof*: (1) → (2)
 
