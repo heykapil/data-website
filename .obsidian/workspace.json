@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b25ddca1785094e7",
+        "id": "5c9ab93dedce9b63",
         "type": "tabs",
         "children": [
           {
-            "id": "428b7417d45907cc",
+            "id": "a4817065154206d2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.md"
-              }
+              "state": {}
             }
           },
           {
@@ -154,7 +146,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -171,24 +164,36 @@
       "formatto-format:Format Document": false,
       "remotely-save:Remotely Save": false,
       "copilot:Copilot Chat": false,
-      "obisidian-note-linker:Note Linker": false
+      "obisidian-note-linker:Note Linker": false,
+      "pdf-plus:PDF++: Toggle \"select text to copy\" mode": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false
     }
   },
-  "active": "437e265cace0e18c",
+  "active": "dac87f0f447f8f36",
   "lastOpenFiles": [
     "Screenshot 2024-02-28 at 1.39.26 PM.png",
+    "Spaces/Teaching/Complex Analysis/Cauchy-Integral Formula.md",
+    "Spaces/Teaching/Complex Analysis/_attachments/Full.pdf",
+    "Spaces/Teaching/Complex Analysis/_attachments/COMPLEX.pdf",
+    "Spaces/Teaching/Complex Analysis/Liouville theorem.md",
+    "Spaces/Teaching/Complex Analysis/_attachments/complex_ucdavis.pdf",
+    "Spaces/Teaching/Complex Analysis/complex_ucdavis.pdf",
+    "Spaces/Teaching/complex_ucdavis.pdf",
+    "Spaces/complex_ucdavis.pdf",
+    "complex_ucdavis.pdf",
+    "Spaces/PhD/Fractional-order derivative.md",
+    "Spaces/Teaching/Complex Analysis/Taylor Theorem.md",
+    "Spaces/Teaching/Complex Analysis/Laurent Theorem.md",
+    "Spaces/Teaching/Complex Analysis/Holomorphic and Meromorphic functions.md",
+    "Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.md",
+    "2024-03-13.md",
+    "Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.html",
     "Spaces/Teaching/Complex Analysis/Winding number.md",
     "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
     "Spaces/Teaching/Complex Analysis/Argument Principle.md",
-    "Spaces/Teaching/Complex Analysis/Laurent Theorem.md",
-    "Spaces/Teaching/Complex Analysis/Taylor Theorem.md",
-    "Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.md",
     "Spaces/Teaching/Complex Analysis/Picard's theorem.md",
-    "Spaces/Teaching/Complex Analysis/Liouville theorem.md",
-    "Spaces/Teaching/Complex Analysis/Holomorphic and Meromorphic functions.md",
     "Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md",
     "Spaces/Teaching/Complex Analysis/Cauchy inequalities.md",
-    "Spaces/Teaching/Complex Analysis/Cauchy-Integral Formula.md",
     "WIP.md",
     "Spaces/Teaching/Complex Analysis/Residue.md",
     "Spaces/Politics/msp-issue-farmers-protest-2024-india.md",
@@ -199,23 +204,13 @@
     "snippets/index.md",
     "copilot-conversations/Chat-2024_03_04-15_07_12.md",
     "copilot-conversations",
-    "Spaces/Teaching/MAT409_ComplexII_2023-24/Solution Unit Test II.pdf",
-    "Spaces/Teaching/MAT409_ComplexII_2023-24/Course_Book.pdf",
-    "Spaces/Teaching/MAT409_ComplexII_2023-24/Unit_II_Assignment.pdf",
     "Argument Principle.canvas",
-    "Spaces/Teaching/Complex Analysis/_attachments",
     "Spaces/Teaching/Complex Analysis/_attachments/Screenshot 2024-02-28 at 1.39.26 PM.png",
     "Attachments/Screenshot 2024-02-28 at 1.39.26 PM.png",
     "2024-02-29.md",
     "Untitled.canvas",
     "quotes/hindi.md",
     "posts/Practice-Questions.md",
-    "posts/Csir-newfms-guide.md",
-    "preamble.sty",
-    "symbols.md",
-    "snippet.json.sb-a03e4d3b-tgm6Mc",
-    "snippet.json",
-    "untitled",
     "Screenshot 2024-02-28 at 1.39.26 PM 1.png",
     "Screenshot 2024-02-28 at 1.39.26 PM.png",
     "documents/phd_reg.jpg",

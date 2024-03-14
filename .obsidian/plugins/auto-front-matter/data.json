@@ -49,6 +49,14 @@
       "valueOption": {
         "content": ""
       }
+    },
+    {
+      "name": "date",
+      "actionType": "once",
+      "valueType": "datetime",
+      "valueOption": {
+        "content": ""
+      }
     }
   ]
 }

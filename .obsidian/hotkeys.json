@@ -15,5 +15,13 @@
       ],
       "key": "M"
     }
+  ],
+  "obsidian-export-image:export-to-image-zh": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "I"
+    }
   ]
 }

@@ -4,8 +4,9 @@ title: Riemann removable singularity theorem
 created: 2024-02-24T13:50:00
 updated: 2024-02-26 16:28:30
 author: Kapil Chaudhary
+date: 2024-03-13
 ---
-This theorem tells the local behaviour of a function near the isolated removable singularity.  It states that the function is analytic and bounded in the deleted neighbourhood of the removable singularity. <span style='color:var(--mk-color-green)'>***Converse of this statement is also true.***</span> If we redefine the value of the function at the point of removable singularity, then we can make the redefined function holomorphic, bounded, continuous in the neighbourhood of the removable singularity.
+*This* theorem tells the local behaviour of a function near the isolated removable singularity.  It states that the function is analytic and bounded in the deleted neighbourhood of the removable singularity. <span style='color:var(--mk-color-green)'>***Converse of this statement is also true.***</span> If we redefine the value of the function at the point of removable singularity, then we can make the redefined function holomorphic, bounded, continuous in the neighbourhood of the removable singularity.
 
 
 > [!theorem] Riemann Theorem

@@ -4,7 +4,6 @@
   "formatto-format",
   "obsidian-completr",
   "auto-front-matter",
-  "remotely-save",
   "make-md",
   "obsidian-linter",
   "obsidian-languagetool-plugin",
@@ -26,6 +25,6 @@
   "mathlinks",
   "css-editor",
   "obsidian-admonition",
-  "obsidian-enhancing-export",
-  "obsidian-export-image"
+  "better-export-pdf",
+  "pdf-plus"
 ]
