@@ -11,8 +11,10 @@
             "id": "a4817065154206d2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "mk-space",
+              "state": {
+                "path": "snippets"
+              }
             }
           }
         ]
@@ -74,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 296.5
   },
   "right": {
     "id": "f2c3a3c26659652a",
@@ -151,7 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 375.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,15 +164,19 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "formatto-format:Format Document": false,
-      "remotely-save:Remotely Save": false,
       "copilot:Copilot Chat": false,
       "obisidian-note-linker:Note Linker": false,
       "pdf-plus:PDF++: Toggle \"select text to copy\" mode": false,
       "pdf-plus:PDF++: Toggle auto-focus": false
     }
   },
-  "active": "dac87f0f447f8f36",
+  "active": "a4817065154206d2",
   "lastOpenFiles": [
+    "Spaces/Teaching/Complex Analysis/Argument Principle.md",
+    "Spaces/Teaching/Complex Analysis/Untitled.pdf",
+    "Spaces/Politics/msp-issue-farmers-protest-2024-india.md",
+    "[[msp-issue-farmers-protest-2024-india.md",
+    "Are protests legal in a democracy ?.md",
     "Screenshot 2024-02-28 at 1.39.26 PM.png",
     "Spaces/Teaching/Complex Analysis/Cauchy-Integral Formula.md",
     "Spaces/Teaching/Complex Analysis/_attachments/Full.pdf",
@@ -190,27 +196,22 @@
     "Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.html",
     "Spaces/Teaching/Complex Analysis/Winding number.md",
     "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
-    "Spaces/Teaching/Complex Analysis/Argument Principle.md",
     "Spaces/Teaching/Complex Analysis/Picard's theorem.md",
     "Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md",
     "Spaces/Teaching/Complex Analysis/Cauchy inequalities.md",
     "WIP.md",
     "Spaces/Teaching/Complex Analysis/Residue.md",
-    "Spaces/Politics/msp-issue-farmers-protest-2024-india.md",
     "Spaces/Life/Ritul's second Birthday.md",
     "Spaces/PGT/PGT.md",
     "Spaces/PGT",
     "Spaces/Untitled.md",
     "snippets/index.md",
     "copilot-conversations/Chat-2024_03_04-15_07_12.md",
-    "copilot-conversations",
     "Argument Principle.canvas",
     "Spaces/Teaching/Complex Analysis/_attachments/Screenshot 2024-02-28 at 1.39.26 PM.png",
     "Attachments/Screenshot 2024-02-28 at 1.39.26 PM.png",
     "2024-02-29.md",
     "Untitled.canvas",
-    "quotes/hindi.md",
-    "posts/Practice-Questions.md",
     "Screenshot 2024-02-28 at 1.39.26 PM 1.png",
     "Screenshot 2024-02-28 at 1.39.26 PM.png",
     "documents/phd_reg.jpg",

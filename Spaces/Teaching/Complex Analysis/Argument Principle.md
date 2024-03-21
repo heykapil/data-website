@@ -5,6 +5,11 @@ title: Argument Principle
 created: 2024-03-01 12:39:57
 updated: 2024-03-01 12:39:57
 ---
+
+**#Lecture** Tuesday, 19 March 2024 $\hspace{17.5em}$**#Instructor** Kapil Chaudhary
+
+---
+
 This principle is the consequence of the [[Cauchy-Residue Theorem]]. It connects the [[Winding number]] of a curve with the number of zeros and poles inside the curve. It has some useful applications in the form of Rouche's theorem to find the location of the zeroes and poles of a function inside the curve.
 
 > [!lemma] Lemma
@@ -15,7 +20,7 @@ This principle is the consequence of the [[Cauchy-Residue Theorem]]. It connects
 Clearly $\displaystyle \lim_{z \rightarrow z_{0}} \frac{f'(z)}{f(z)} = \infty$ and $\displaystyle \lim_{z\to z_0} (z-z_{0}) \frac{f'(z)}{f(z)} = m$. That means, $z_0$ is a simple pole of $f'/f$ with residue $m$.
 
 In similar way, $p_0$ is the pole of order $n$ of function $f$ then $f$ has the following representation 
-$\displaystyle f(z)=\frac{h(z)}{(z-p_{0})^n}$ where $h$ is holomorphic with $h(p_0)\neq 0$ which gives $\displaystyle \frac{f'(z)}{f(z)} = \frac{-n}{z-p_{0}}+ \frac{g'(z)}{g(z)}$.
+$\displaystyle f(z)=\frac{h(z)}{(z-p_{0})^n}$ where $h$ is holomorphic with $h(p_0)\neq 0$ which gives ${} \displaystyle \frac{f'(z)}{f(z)} = \frac{-n}{z-p_{0}}+ \frac{h'(z)}{h(z)} {}$.
 
 Clearly $\displaystyle \lim_{z \rightarrow p_{0}} \frac{f'(z)}{f(z)} = \infty$ and $\displaystyle \lim_{z\to p_0} (z-p_{0}) \frac{f'(z)}{f(z)} = -n$. That means, $z_0$ is a simple pole of $f'/f$ with residue $-n$.
 $$\tag*{Q.E.D.}$$
@@ -29,7 +34,7 @@ $$\tag*{Q.E.D.}$$
 > 
 > **Remark:** *If $C$ is simple closed curve with each $z_i$ and $p_j$ being inside $C$ then the above integral reduces to*
 > 
-> $\frac{1}{2 \pi i} \oint_{C} \frac{f'(z)}{f(z)} dz = Z_{f, C} - P_{f,C}$ 
+> $$\frac{1}{2 \pi i} \oint_{C} \frac{f'(z)}{f(z)} dz = Z_{f, C} - P_{f,C}$$ 
 > *where $Z_{f,C}$ and $P_{f,C}$ denotes the number of zeroes and number of poles of $f$ counted with multiplicity inside $C$ respectively.*
 
 *Proof*: Using the definition of the [[Winding number]], $$\eta(f\circ C, 0) = \frac{1}{2 \pi i} \int _{f\circ C} \frac{dw}{w-0}$$ where $w\in f\circ C \implies w=f(z)$ where $z \in C$. The transformation $w=f(z)$ gives $\displaystyle \frac{dw}{w} = \frac{f'(z)}{f(z)}dz$.
@@ -39,11 +44,19 @@ Given that $z_i's$ and $p_j$'s are the zeroes and poles of $f$ counted with mult
 
 Using [[Cauchy-Residue Theorem]] 
 $$\frac{1}{2 \pi i} \int _{ C} \frac{f'(z)}{f(z)}dz  = \sum_{i=1}^n \text{Res}\left( \frac{f'(z)}{f(z)} , z_{i}\right) +  \sum_{j=1}^m \text{Res}\left( \frac{f'(z)}{f(z)} , p_{j}\right) $$
-As [[WIP]]
+Since $z_{i}$'s and $p_{j}$'s are counted with multiplicities then using Lemma,
 
+$$
+\begin{align}
+\frac{1}{2 \pi i} \int _{ C} \frac{f'(z)}{f(z)}dz  &= \sum_{i=1}^n \text{Res}\left( \frac{f'(z)}{f(z)} , z_{i}\right) +  \sum_{j=1}^m \text{Res}\left( \frac{f'(z)}{f(z)} , p_{j}\right) \\ &= \sum^{n}_{i=1} \,\eta(C, z_{i}) + \sum^{m}_{j=1}\, \eta(C, p_{j}) &&
+\end{align}$$
 
 $$\tag*{Q.E.D.}$$
 > [!theorem] Generalised Argument principle
 > Suppose $g$ is [[Holomorphic and Meromorphic functions | holomorphic]] inside $U$. Let $f$ and $C$ be same as stated above in the [[Argument Principle]] then
 >
 > $$\frac{1}{2 \pi i}\oint_{C} \frac{f'(z)}{f(z)} g(z) dz =  \sum_{i=1}^n \eta(C, z_{i}) g(z_{i}) - \sum^{m}_{j=1} \eta(C, p_{j}) g(p_{j})$$
+
+`\begin{proof}`
+This proof is similar to the proof of [[Argument Principle]]. Here, each zero and pole of $f$ is a simple pole of $\displaystyle \frac{f'(z)}{f(z)} g(z)$ with residue $g(z_{i})$ and ${} -g(p_{j})$, respectively.
+`\end{proof}`

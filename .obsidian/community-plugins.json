@@ -26,5 +26,6 @@
   "css-editor",
   "obsidian-admonition",
   "better-export-pdf",
-  "pdf-plus"
+  "pdf-plus",
+  "reference-generator"
 ]
