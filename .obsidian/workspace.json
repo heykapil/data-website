@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5c9ab93dedce9b63",
+        "id": "e2ed248bf695c019",
         "type": "tabs",
         "children": [
           {
-            "id": "a4817065154206d2",
+            "id": "e726eb29b61c6b75",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "snippets"
+                "file": "Spaces/Teaching/Complex Analysis/Argument Principle.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -92,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Spaces/Teaching/Complex Analysis/Argument Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Spaces/Teaching/Complex Analysis/Argument Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Spaces/Teaching/Complex Analysis/Argument Principle.md"
+              }
             }
           },
           {
@@ -170,54 +176,55 @@
       "pdf-plus:PDF++: Toggle auto-focus": false
     }
   },
-  "active": "a4817065154206d2",
+  "active": "e726eb29b61c6b75",
   "lastOpenFiles": [
-    "Spaces/Teaching/Complex Analysis/Argument Principle.md",
-    "Spaces/Teaching/Complex Analysis/Untitled.pdf",
-    "Spaces/Politics/msp-issue-farmers-protest-2024-india.md",
-    "[[msp-issue-farmers-protest-2024-india.md",
-    "Are protests legal in a democracy ?.md",
+    "Obsidian/Spaces/Teaching/Complex Analysis/_attachments/COMPLEX.pdf",
+    "Obsidian/Spaces/Teaching/Complex Analysis/_attachments/complex_ucdavis.pdf",
+    "Obsidian/Spaces/Teaching/Complex Analysis/_attachments/Screenshot 2024-02-28 at 1.39.26 PM.png",
+    "Obsidian/Spaces/Teaching/Complex Analysis/_attachments/Full.pdf",
+    "Obsidian/Spaces/Teaching/MAT409_ComplexII_2023-24/Unit_II_Assignment.pdf",
+    "Obsidian/Spaces/Teaching/MAT409_ComplexII_2023-24/Unit Test II.pdf",
+    "Obsidian/Spaces/Teaching/MAT409_ComplexII_2023-24/Solution_Manual.pdf",
+    "Obsidian/Spaces/Teaching/MAT409_ComplexII_2023-24/Solution Unit Test II.pdf",
+    "Obsidian/Spaces/Teaching/MAT409_ComplexII_2023-24/Course_Book.pdf",
+    "Obsidian/Spaces/Teaching/Complex Analysis/_attachments",
+    "Obsidian/Spaces/Teaching/Complex Analysis/Winding number.md",
+    "Obsidian/Spaces/Teaching/Complex Analysis/Untitled.pdf",
+    "Obsidian/Spaces/Teaching/Complex Analysis/Taylor Theorem.md",
+    "Obsidian/Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.md",
+    "Obsidian/Spaces/Teaching/Complex Analysis/Residue.md",
+    "Obsidian/Spaces/Teaching/Complex Analysis/Picard's theorem.md",
+    "Obsidian/Spaces/Teaching/Complex Analysis/Liouville theorem.md",
+    "Obsidian/Spaces/Teaching/Complex Analysis/Laurent Theorem.md",
+    "Obsidian/Spaces/Teaching/Complex Analysis/Holomorphic and Meromorphic functions.md",
+    "Obsidian/Spaces/Teaching/Complex Analysis/Complex Analysis.md",
+    "Obsidian/Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md",
+    "Obsidian/Spaces/Teaching/Complex Analysis/Cauchy inequalities.md",
+    "Obsidian/Spaces/Teaching/Complex Analysis/Cauchy-Integral Formula.md",
+    "Obsidian/Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
+    "Obsidian/Spaces/Teaching/Complex Analysis/Argument Principle.md",
+    "Obsidian/Spaces/Teaching/MAT405_Linear_2022-23/Roll No 34-35-36.pdf",
+    "Obsidian/Spaces/Teaching/Teaching.md",
+    "Obsidian/Spaces/Politics/msp-issue-farmers-protest-2024-india.md",
+    "Obsidian/Spaces/Politics/Politics.md",
+    "Obsidian/Spaces/Life/Ritul's second Birthday.md",
+    "Obsidian/Spaces/Life/Life.md",
+    "Obsidian/Spaces/PhD/Fractional-order derivative.md",
+    "Obsidian/Spaces/PhD/PhD.md",
+    "Obsidian/Spaces/PGT/PGT.md",
+    "Obsidian/Spaces/Spaces.md",
+    "Obsidian/Vault.md",
+    "Obsidian/WIP.md",
     "Screenshot 2024-02-28 at 1.39.26 PM.png",
-    "Spaces/Teaching/Complex Analysis/Cauchy-Integral Formula.md",
-    "Spaces/Teaching/Complex Analysis/_attachments/Full.pdf",
-    "Spaces/Teaching/Complex Analysis/_attachments/COMPLEX.pdf",
-    "Spaces/Teaching/Complex Analysis/Liouville theorem.md",
-    "Spaces/Teaching/Complex Analysis/_attachments/complex_ucdavis.pdf",
-    "Spaces/Teaching/Complex Analysis/complex_ucdavis.pdf",
-    "Spaces/Teaching/complex_ucdavis.pdf",
-    "Spaces/complex_ucdavis.pdf",
-    "complex_ucdavis.pdf",
-    "Spaces/PhD/Fractional-order derivative.md",
-    "Spaces/Teaching/Complex Analysis/Taylor Theorem.md",
-    "Spaces/Teaching/Complex Analysis/Laurent Theorem.md",
-    "Spaces/Teaching/Complex Analysis/Holomorphic and Meromorphic functions.md",
-    "Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.md",
-    "2024-03-13.md",
-    "Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.html",
-    "Spaces/Teaching/Complex Analysis/Winding number.md",
-    "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
-    "Spaces/Teaching/Complex Analysis/Picard's theorem.md",
-    "Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md",
-    "Spaces/Teaching/Complex Analysis/Cauchy inequalities.md",
-    "WIP.md",
-    "Spaces/Teaching/Complex Analysis/Residue.md",
-    "Spaces/Life/Ritul's second Birthday.md",
-    "Spaces/PGT/PGT.md",
-    "Spaces/PGT",
-    "Spaces/Untitled.md",
-    "snippets/index.md",
-    "copilot-conversations/Chat-2024_03_04-15_07_12.md",
     "Argument Principle.canvas",
     "Spaces/Teaching/Complex Analysis/_attachments/Screenshot 2024-02-28 at 1.39.26 PM.png",
     "Attachments/Screenshot 2024-02-28 at 1.39.26 PM.png",
-    "2024-02-29.md",
     "Untitled.canvas",
     "Screenshot 2024-02-28 at 1.39.26 PM 1.png",
     "Screenshot 2024-02-28 at 1.39.26 PM.png",
     "documents/phd_reg.jpg",
     "images/website/Welcome.svg",
     "images/website/logos/tsx.svg",
-    "images/website/logos/css.svg",
-    "images/website/logos/mdx.svg"
+    "images/website/logos/css.svg"
   ]
 }

@@ -6,7 +6,7 @@ created: 2024-03-01 12:39:57
 updated: 2024-03-01 12:39:57
 ---
 
-**#Lecture** Tuesday, 19 March 2024 $\hspace{17.5em}$**#Instructor** Kapil Chaudhary
+**#Lecture** Sat, 30<sup>th</sup> March 2024 $\hspace{17.5em}$**#Instructor** Kapil Chaudhary
 
 ---
 
