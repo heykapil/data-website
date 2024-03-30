@@ -60,3 +60,4 @@ $$\tag*{Q.E.D.}$$
 `\begin{proof}`
 This proof is similar to the proof of [[Argument Principle]]. Here, each zero and pole of $f$ is a simple pole of $\displaystyle \frac{f'(z)}{f(z)} g(z)$ with residue $g(z_{i})$ and ${} -g(p_{j})$, respectively.
 `\end{proof}`
+

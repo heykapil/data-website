@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Teaching/Complex Analysis/Argument Principle.md",
-                "mode": "preview",
+                "file": "WIP.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Teaching/Complex Analysis/Argument Principle.md",
+                "file": "WIP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Teaching/Complex Analysis/Argument Principle.md",
+                "file": "WIP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Teaching/Complex Analysis/Argument Principle.md"
+                "file": "WIP.md"
               }
             }
           },
@@ -155,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -178,6 +178,7 @@
   },
   "active": "e726eb29b61c6b75",
   "lastOpenFiles": [
+    "Spaces/Teaching/Complex Analysis/Argument Principle.md",
     "Obsidian/Spaces/Teaching/Complex Analysis/_attachments/COMPLEX.pdf",
     "Obsidian/Spaces/Teaching/Complex Analysis/_attachments/complex_ucdavis.pdf",
     "Obsidian/Spaces/Teaching/Complex Analysis/_attachments/Screenshot 2024-02-28 at 1.39.26 PM.png",
@@ -203,7 +204,6 @@
     "Obsidian/Spaces/Teaching/Complex Analysis/Cauchy-Integral Formula.md",
     "Obsidian/Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
     "Obsidian/Spaces/Teaching/Complex Analysis/Argument Principle.md",
-    "Obsidian/Spaces/Teaching/MAT405_Linear_2022-23/Roll No 34-35-36.pdf",
     "Obsidian/Spaces/Teaching/Teaching.md",
     "Obsidian/Spaces/Politics/msp-issue-farmers-protest-2024-india.md",
     "Obsidian/Spaces/Politics/Politics.md",
