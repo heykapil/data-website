@@ -25,6 +25,7 @@
   "defaultDateFormat": "MMM dd yyyy",
   "spacesEnabled": true,
   "spacesPerformance": false,
+  "currentWaypoint": 1,
   "enableFolderNote": true,
   "folderIndentationLines": true,
   "revealActiveFile": false,
@@ -42,8 +43,8 @@
     "//Spaces/Spaces/Home/Spaces/Home/PHD",
     "//Spaces/Spaces/PHD",
     "//output",
-    "//Spaces/Spaces/Teaching/Spaces/Teaching/Complex Analysis",
-    "//Spaces"
+    "//Spaces",
+    "//Spaces/Spaces/PGT"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -87,9 +88,12 @@
   "releaseNotesPrompt": 0.9,
   "enableDefaultSpaces": true,
   "enableTagSpaces": true,
-  "enableHomeSpace": true,
   "showSpacePinIcon": true,
   "minimalFix": false,
   "experimental": false,
-  "systemName": "Vault"
+  "systemName": "obsidian",
+  "defaultSpaceTemplate": "",
+  "selectedKit": "default",
+  "actionMaxSteps": 100,
+  "enableHomeSpace": true
 }

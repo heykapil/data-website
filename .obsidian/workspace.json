@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e726eb29b61c6b75",
+            "id": "abcafff2f368747b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "dac87f0f447f8f36",
+            "id": "2a80e2cefd87ce35",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -169,15 +169,28 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "formatto-format:Format Document": false,
-      "copilot:Copilot Chat": false,
       "obisidian-note-linker:Note Linker": false,
-      "pdf-plus:PDF++: Toggle \"select text to copy\" mode": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false
+      "magic-calendar:MagicCalendar": false,
+      "copilot:Copilot Chat": false,
+      "formatto-format:Format Document": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e726eb29b61c6b75",
+  "active": "abcafff2f368747b",
   "lastOpenFiles": [
+    "Spaces/PhD/_attachments/Papers/Papers.md",
+    "Spaces/PhD/_attachments/Papers",
+    "Spaces/PhD/_attachments/Untitled.md",
+    "Spaces/PhD/_attachments/Books/Books.md",
+    "Spaces/PhD/_attachments/Books",
+    "Spaces/PhD/_attachments/_attachments.md",
+    "Spaces/PhD/_attachments",
+    "Spaces/PhD/Fractional-order derivative.md",
+    "Spaces/PhD/_attachments/Books/The Analysis of Fractional Differential Equations-Springer-Ve.pdf",
+    "WIP.md",
+    "2024-04-09.md",
     "Spaces/Teaching/Complex Analysis/Argument Principle.md",
     "Obsidian/Spaces/Teaching/Complex Analysis/_attachments/COMPLEX.pdf",
     "Obsidian/Spaces/Teaching/Complex Analysis/_attachments/complex_ucdavis.pdf",
@@ -186,11 +199,7 @@
     "Obsidian/Spaces/Teaching/MAT409_ComplexII_2023-24/Unit_II_Assignment.pdf",
     "Obsidian/Spaces/Teaching/MAT409_ComplexII_2023-24/Unit Test II.pdf",
     "Obsidian/Spaces/Teaching/MAT409_ComplexII_2023-24/Solution_Manual.pdf",
-    "Obsidian/Spaces/Teaching/MAT409_ComplexII_2023-24/Solution Unit Test II.pdf",
-    "Obsidian/Spaces/Teaching/MAT409_ComplexII_2023-24/Course_Book.pdf",
-    "Obsidian/Spaces/Teaching/Complex Analysis/_attachments",
     "Obsidian/Spaces/Teaching/Complex Analysis/Winding number.md",
-    "Obsidian/Spaces/Teaching/Complex Analysis/Untitled.pdf",
     "Obsidian/Spaces/Teaching/Complex Analysis/Taylor Theorem.md",
     "Obsidian/Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.md",
     "Obsidian/Spaces/Teaching/Complex Analysis/Residue.md",
@@ -208,13 +217,6 @@
     "Obsidian/Spaces/Politics/msp-issue-farmers-protest-2024-india.md",
     "Obsidian/Spaces/Politics/Politics.md",
     "Obsidian/Spaces/Life/Ritul's second Birthday.md",
-    "Obsidian/Spaces/Life/Life.md",
-    "Obsidian/Spaces/PhD/Fractional-order derivative.md",
-    "Obsidian/Spaces/PhD/PhD.md",
-    "Obsidian/Spaces/PGT/PGT.md",
-    "Obsidian/Spaces/Spaces.md",
-    "Obsidian/Vault.md",
-    "Obsidian/WIP.md",
     "Screenshot 2024-02-28 at 1.39.26 PM.png",
     "Argument Principle.canvas",
     "Spaces/Teaching/Complex Analysis/_attachments/Screenshot 2024-02-28 at 1.39.26 PM.png",
