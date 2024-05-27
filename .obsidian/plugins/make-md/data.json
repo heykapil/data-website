@@ -44,7 +44,9 @@
     "//Spaces/Spaces/PHD",
     "//output",
     "//Spaces",
-    "//Spaces/Spaces/PGT"
+    "//Spaces/Spaces/PGT",
+    "//Spaces/Spaces/Politics",
+    "//Spaces/Spaces/PhD"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
