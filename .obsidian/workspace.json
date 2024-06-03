@@ -11,9 +11,11 @@
             "id": "abcafff2f368747b",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "Spaces/PhD/_attachments/Books"
+                "file": "Spaces/PhD/_attachments/Books/Books.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -71,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -92,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Spaces/PhD/_attachments/Books/Books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Spaces/PhD/_attachments/Books/Books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Spaces/PhD/_attachments/Books/Books.md"
+              }
             }
           },
           {
@@ -174,6 +179,8 @@
   },
   "active": "abcafff2f368747b",
   "lastOpenFiles": [
+    "Spaces/PhD/_attachments/Books/NonLinear Dynamics and Chaos - Steven Strogatz.md",
+    "Spaces/PhD/_attachments/Books/.md",
     "Spaces/PhD/Fractional-order derivative.md",
     "WIP.md",
     "Spaces/Politics/.md",
@@ -209,8 +216,6 @@
     "Obsidian/Spaces/Teaching/Complex Analysis/Cauchy-Integral Formula.md",
     "Obsidian/Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
     "Obsidian/Spaces/Teaching/Complex Analysis/Argument Principle.md",
-    "Obsidian/Spaces/Teaching/Teaching.md",
-    "Obsidian/Spaces/Politics/msp-issue-farmers-protest-2024-india.md",
     "Screenshot 2024-02-28 at 1.39.26 PM.png",
     "Argument Principle.canvas",
     "Spaces/Teaching/Complex Analysis/_attachments/Screenshot 2024-02-28 at 1.39.26 PM.png",
