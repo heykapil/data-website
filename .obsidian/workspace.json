@@ -11,11 +11,9 @@
             "id": "abcafff2f368747b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Spaces/PhD/Fractional-order derivative.md",
-                "mode": "source",
-                "source": false
+                "path": "Spaces/PhD"
               }
             }
           }
@@ -94,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/PhD/Fractional-order derivative.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/PhD/Fractional-order derivative.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +129,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Spaces/PhD/Fractional-order derivative.md"
-              }
+              "state": {}
             }
           },
           {
@@ -180,6 +174,7 @@
   },
   "active": "abcafff2f368747b",
   "lastOpenFiles": [
+    "Spaces/PhD/Fractional-order derivative.md",
     "WIP.md",
     "Spaces/Politics/.md",
     "Spaces/Politics/msp-issue-farmers-protest-2024-india.md",
@@ -190,7 +185,6 @@
     "Spaces/PhD/_attachments/Books",
     "Spaces/PhD/_attachments/_attachments.md",
     "Spaces/PhD/_attachments",
-    "Spaces/PhD/Fractional-order derivative.md",
     "Spaces/PhD/_attachments/Books/The Analysis of Fractional Differential Equations-Springer-Ve.pdf",
     "2024-04-09.md",
     "Spaces/Teaching/Complex Analysis/Argument Principle.md",
