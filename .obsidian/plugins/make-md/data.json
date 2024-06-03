@@ -46,7 +46,14 @@
     "//Spaces",
     "//Spaces/Spaces/PGT",
     "//Spaces/Spaces/Politics",
-    "//Spaces/Spaces/PhD/Spaces/PhD/_attachments/Spaces/PhD/_attachments/Books"
+    "//Spaces/Spaces/PhD/Spaces/PhD/_attachments/Spaces/PhD/_attachments/Books",
+    "//Spaces/Spaces/PhD",
+    "//Spaces/Spaces/PhD/Spaces/PhD/_attachments",
+    "//Spaces/Spaces/PhD/Spaces/PhD/_attachments/Spaces/PhD/_attachments/Books",
+    "//Spaces/Spaces/PhD/Spaces/PhD/_attachments/Spaces/PhD/_attachments/Books",
+    "//Spaces/Spaces/PhD/Spaces/PhD/_attachments",
+    "//Spaces/Spaces/PhD/Spaces/PhD/_attachments",
+    "//Spaces/Spaces/PhD/Spaces/PhD/_attachments"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
