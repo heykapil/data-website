@@ -32,6 +32,10 @@
       "beginProof": "\\begin{proof}",
       "endProof": "\\end{proof}",
       "insertSpace": true
+    },
+    "Spaces/Teaching/Complex Analysis/Cauchy-Goursat Theorem.md": {
+      "profile": "English",
+      "eqRefPrefix": ""
     }
   },
   "extraSettings": {
@@ -73,7 +77,7 @@
     },
     "showTheoremTitleinBuiltin": true,
     "showTheoremContentinBuiltin": true,
-    "renderEquationinBuiltin": false,
+    "renderEquationinBuiltin": true,
     "triggerSuggest": "\\ref",
     "triggerTheoremSuggest": "\\tref",
     "triggerEquationSuggest": "\\eqref",
@@ -99,7 +103,7 @@
     "enableTheoremSuggestDataview": true,
     "enableEquationSuggestDataview": true,
     "renderMathInSuggestion": true,
-    "suggestNumber": 20,
+    "suggestNumber": 37,
     "searchMethod": "Fuzzy",
     "upWeightRecent": 0.1,
     "searchLabel": false,
@@ -117,8 +121,10 @@
     "enableMathPreviewInCalloutAndQuote": true,
     "autocompleteDvQuery": "",
     "searchModalQueryType": "both",
-    "searchModalRange": "recent",
+    "searchModalRange": "active",
     "searchModalDvQuery": ""
   },
-  "excludedFiles": []
+  "excludedFiles": [
+    "Spaces/Teaching/Complex Analysis/Cauchy-Goursat Theorem.md"
+  ]
 }

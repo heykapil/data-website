@@ -13,7 +13,7 @@
             "state": {
               "type": "mk-space",
               "state": {
-                "path": "Spaces/PhD/_attachments"
+                "path": "Spaces/Teaching"
               }
             }
           }
@@ -64,7 +64,7 @@
             }
           },
           {
-            "id": "2a80e2cefd87ce35",
+            "id": "75ba6460502987b8",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 200
   },
   "right": {
     "id": "f2c3a3c26659652a",
@@ -153,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 375.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,8 +173,24 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "abcafff2f368747b",
+  "active": "75ba6460502987b8",
   "lastOpenFiles": [
+    "Holomorphic.md",
+    "Cauchy-Goursat Theorem.pdf",
+    "Spaces/Teaching/MAT409_ComplexII_2023-24/Unit_II_Assignment.pdf",
+    "Spaces/Teaching/MAT409_ComplexII_2023-24/Unit Test II.pdf",
+    "Spaces/Teaching/Complex Analysis/Cauchy-Goursat Theorem.md",
+    "Spaces/Teaching/Complex Analysis/Untitled.pdf",
+    "Spaces/Teaching/Complex Analysis/Holomorphic and Meromorphic functions.md",
+    "Spaces/Teaching/MAT409_ComplexII_2023-24/Course_Book.pdf",
+    "2024-07-02.md",
+    "Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
+    "Spaces/Teaching/Complex Analysis/Picard's theorem.md",
+    "Spaces/Teaching/Complex Analysis/Winding number.md",
+    "Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md",
+    "Spaces/Teaching/Complex Analysis/_attachments/complex_ucdavis.pdf",
+    "Spaces/Teaching/Complex Analysis/_attachments/COMPLEX.pdf",
+    "Spaces/Teaching/Complex Analysis/_attachments/Full.pdf",
     "Spaces/PhD/_attachments/Books/Books.md",
     "Spaces/PhD/_attachments/Books/NonLinear Dynamics and Chaos - Steven Strogatz.md",
     "Spaces/PhD/_attachments/Books/.md",
@@ -186,31 +203,14 @@
     "Spaces/PhD/_attachments/Untitled.md",
     "Spaces/PhD/_attachments/Books",
     "Spaces/PhD/_attachments/_attachments.md",
-    "Spaces/PhD/_attachments",
-    "Spaces/PhD/_attachments/Books/The Analysis of Fractional Differential Equations-Springer-Ve.pdf",
     "2024-04-09.md",
     "Spaces/Teaching/Complex Analysis/Argument Principle.md",
-    "Obsidian/Spaces/Teaching/Complex Analysis/_attachments/COMPLEX.pdf",
-    "Obsidian/Spaces/Teaching/Complex Analysis/_attachments/complex_ucdavis.pdf",
     "Obsidian/Spaces/Teaching/Complex Analysis/_attachments/Screenshot 2024-02-28 at 1.39.26 PM.png",
-    "Obsidian/Spaces/Teaching/Complex Analysis/_attachments/Full.pdf",
-    "Obsidian/Spaces/Teaching/MAT409_ComplexII_2023-24/Unit_II_Assignment.pdf",
-    "Obsidian/Spaces/Teaching/MAT409_ComplexII_2023-24/Unit Test II.pdf",
-    "Obsidian/Spaces/Teaching/MAT409_ComplexII_2023-24/Solution_Manual.pdf",
     "Obsidian/Spaces/Teaching/Complex Analysis/Winding number.md",
     "Obsidian/Spaces/Teaching/Complex Analysis/Taylor Theorem.md",
     "Obsidian/Spaces/Teaching/Complex Analysis/Riemann removable singularity theorem.md",
     "Obsidian/Spaces/Teaching/Complex Analysis/Residue.md",
     "Obsidian/Spaces/Teaching/Complex Analysis/Picard's theorem.md",
-    "Obsidian/Spaces/Teaching/Complex Analysis/Liouville theorem.md",
-    "Obsidian/Spaces/Teaching/Complex Analysis/Laurent Theorem.md",
-    "Obsidian/Spaces/Teaching/Complex Analysis/Holomorphic and Meromorphic functions.md",
-    "Obsidian/Spaces/Teaching/Complex Analysis/Complex Analysis.md",
-    "Obsidian/Spaces/Teaching/Complex Analysis/Cauchy-Residue Theorem.md",
-    "Obsidian/Spaces/Teaching/Complex Analysis/Cauchy inequalities.md",
-    "Obsidian/Spaces/Teaching/Complex Analysis/Cauchy-Integral Formula.md",
-    "Obsidian/Spaces/Teaching/Complex Analysis/Casorati–Weierstrass theorem.md",
-    "Obsidian/Spaces/Teaching/Complex Analysis/Argument Principle.md",
     "Screenshot 2024-02-28 at 1.39.26 PM.png",
     "Argument Principle.canvas",
     "Spaces/Teaching/Complex Analysis/_attachments/Screenshot 2024-02-28 at 1.39.26 PM.png",

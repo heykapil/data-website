@@ -5,7 +5,8 @@
   "textFontFamily": "Palatino",
   "interfaceFontFamily": "Google Sans",
   "enabledCssSnippets": [
-    "admonition"
+    "admonition",
+    "custom-admonitions.bd9905"
   ],
   "baseFontSize": 14
 }

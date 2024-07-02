@@ -1,6 +1,7 @@
 {
   "newNotePlaceholder": "Untitled",
   "defaultInitialization": false,
+  "navigatorEnabled": true,
   "filePreviewOnHover": true,
   "flowMenuEnabled": true,
   "markSans": false,
@@ -24,6 +25,7 @@
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
   "spacesEnabled": true,
+  "syncFormulaToFrontmatter": true,
   "spacesPerformance": false,
   "currentWaypoint": 1,
   "enableFolderNote": true,
@@ -31,6 +33,7 @@
   "revealActiveFile": false,
   "spacesStickers": true,
   "spaceRowHeight": 29,
+  "bannerHeight": 200,
   "spacesDisablePatch": true,
   "folderNoteInsideFolder": true,
   "sidebarTabs": true,
@@ -45,9 +48,7 @@
     "//output",
     "//Spaces",
     "//Spaces/Spaces/PGT",
-    "//Spaces/Spaces/Politics",
     "//Spaces/Spaces/PhD/Spaces/PhD/_attachments/Spaces/PhD/_attachments/Books",
-    "//Spaces/Spaces/PhD",
     "//Spaces/Spaces/PhD/Spaces/PhD/_attachments",
     "//Spaces/Spaces/PhD/Spaces/PhD/_attachments/Spaces/PhD/_attachments/Books",
     "//Spaces/Spaces/PhD/Spaces/PhD/_attachments/Spaces/PhD/_attachments/Books",
@@ -64,7 +65,9 @@
   "spacesFolder": "Spaces",
   "hiddenFiles": [],
   "hiddenExtensions": [
-    ".mdb"
+    ".mdb",
+    "_assets",
+    "_blocks"
   ],
   "inlineBacklinks": false,
   "inlineContext": true,
@@ -85,6 +88,8 @@
   "fmKeyColor": "color",
   "fmKeySticker": "sticker",
   "fmKeyContexts": "_contexts",
+  "fmKeyTemplate": "_template",
+  "fmKeyTemplateName": "_templateName",
   "fmKeySort": "_sort",
   "fmKeyFilter": "_filters",
   "fmKeyLinks": "_links",
@@ -96,7 +101,6 @@
   "autoMigration08": false,
   "releaseNotesPrompt": 0.9,
   "enableDefaultSpaces": true,
-  "enableTagSpaces": true,
   "showSpacePinIcon": true,
   "minimalFix": false,
   "experimental": false,
@@ -104,5 +108,6 @@
   "defaultSpaceTemplate": "",
   "selectedKit": "default",
   "actionMaxSteps": 100,
+  "enableTagSpaces": true,
   "enableHomeSpace": true
 }

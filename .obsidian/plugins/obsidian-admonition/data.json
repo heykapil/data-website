@@ -40,7 +40,7 @@
   },
   "syntaxHighlight": true,
   "copyButton": false,
-  "version": "10.2.0",
+  "version": "10.3.2",
   "autoCollapse": true,
   "defaultCollapseType": "open",
   "injectColor": true,
@@ -57,6 +57,6 @@
   "useFontAwesome": true,
   "rpgDownloadedOnce": false,
   "msDocConverted": true,
-  "useSnippet": false,
+  "useSnippet": true,
   "snippetPath": "custom-admonitions.bd9905"
 }

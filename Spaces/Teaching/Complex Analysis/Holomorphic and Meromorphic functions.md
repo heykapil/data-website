@@ -15,6 +15,8 @@ author: Kapil Chaudhary
 > 	
 > *A simpler version of the definition of meromorphic function is the function which can be expressed as the ratio of two holomorphic functions.*
 
+^749d4a
+
 
 
 

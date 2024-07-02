@@ -7254,6 +7254,16 @@ async function checkSnippetExists(app, fileName) {
 async function deleteSnippetFile(app, fileName) {
   await app.vault.adapter.remove(`${getSnippetDirectory(app)}${fileName}`);
 }
+function toggleSnippetFileState(app, fileName) {
+  var _a;
+  const snippetName = fileName.replace(".css", "");
+  if (!((_a = app.customCss) == null ? void 0 : _a.enabledSnippets) || !app.customCss.setCssEnabledStatus) {
+    throw new Error("Failed to enable/disable CSS snippet.");
+  }
+  const isEnabled = app.customCss.enabledSnippets.has(snippetName);
+  app.customCss.setCssEnabledStatus(snippetName, !isEnabled);
+  return !isEnabled;
+}
 async function _createSnippetDirectoryIfNotExists(app) {
   if (!await app.vault.adapter.exists(getSnippetDirectory(app))) {
     await app.vault.adapter.mkdir(getSnippetDirectory(app));
@@ -10000,110 +10010,10 @@ var CssEditorView = class extends import_obsidian.ItemView {
 };
 
 // src/modals/CssSnippetFuzzySuggestModal.ts
-var import_obsidian2 = require("obsidian");
-var CssSnippetFuzzySuggestModal = class extends import_obsidian2.FuzzySuggestModal {
-  constructor(app, onChooseItem) {
-    super(app);
-    this.onChooseItem = onChooseItem;
-    this.scope.register(["Meta"], "Enter", (evt) => {
-      var _a, _b;
-      if (!evt.isComposing && ((_b = (_a = this.chooser) == null ? void 0 : _a.useSelectedItem) == null ? void 0 : _b.call(_a, evt))) {
-        return false;
-      }
-    });
-  }
-  getItems() {
-    var _a;
-    if ((_a = this.app.customCss) == null ? void 0 : _a.snippets) {
-      return this.app.customCss.snippets.map((x) => `${x}.css`);
-    }
-    return [];
-  }
-  getItemText(item) {
-    return item;
-  }
-  renderSuggestion(item, el) {
-    super.renderSuggestion(item, el);
-    el.appendChild(
-      createDiv(
-        { cls: "css-editor-suggestion-description" },
-        (el2) => el2.appendText(`${getSnippetDirectory(this.app)}${item.item}`)
-      )
-    );
-  }
-  onChooseItem(item, evt) {
-    throw new Error("Method not implemented.");
-  }
-};
-
-// src/modals/CssSnippetCreateModal.ts
-var import_obsidian4 = require("obsidian");
-
-// src/obsidian/Notice.ts
 var import_obsidian3 = require("obsidian");
-var DEFAULT_NOTICE_TIMEOUT_SECONDS = 5;
-var InfoNotice = class extends import_obsidian3.Notice {
-  constructor(message, timeout = DEFAULT_NOTICE_TIMEOUT_SECONDS) {
-    super(message, timeout * 1e3);
-    console.info(`css-editor: ${message}`);
-  }
-};
-var ErrorNotice = class extends import_obsidian3.Notice {
-  constructor(message, timeout = DEFAULT_NOTICE_TIMEOUT_SECONDS) {
-    super(message, timeout * 1e3);
-    console.error(`css-editor: ${message}`);
-  }
-};
-
-// src/modals/CssSnippetCreateModal.ts
-var CssSnippetCreateModal = class extends import_obsidian4.Modal {
-  constructor(app, plugin) {
-    super(app);
-    this.value = "";
-    this.plugin = plugin;
-  }
-  onOpen() {
-    super.onOpen();
-    this.titleEl.setText("Create CSS Snippet");
-    this.containerEl.addClass("css-editor-create-modal");
-    this.buildForm();
-  }
-  buildForm() {
-    const textInput = new import_obsidian4.TextComponent(this.contentEl);
-    textInput.setPlaceholder("CSS snippet file name (ex: snippet.css)");
-    textInput.onChange((val) => this.value = val);
-    textInput.inputEl.addEventListener("keydown", (evt) => {
-      this.handleKeydown(evt);
-    });
-  }
-  async handleKeydown(evt) {
-    var _a, _b;
-    if (evt.key === "Escape") {
-      this.close();
-    } else if (evt.key === "Enter") {
-      try {
-        await createSnippetFile(this.app, this.value, "");
-        await this.plugin.openCssEditorView(this.value, evt);
-        (_b = (_a = this.app.customCss) == null ? void 0 : _a.setCssEnabledStatus) == null ? void 0 : _b.call(
-          _a,
-          this.value.replace(".css", ""),
-          true
-        );
-        this.close();
-      } catch (err) {
-        if (err instanceof Error) {
-          new ErrorNotice(err.message);
-        } else {
-          new ErrorNotice("Failed to create file. Reason unknown.");
-        }
-      }
-    }
-  }
-};
 
 // src/obsidian/workspace-helpers.ts
-async function openView(workspace, type, evt, state) {
-  const openInNewTab = evt instanceof KeyboardEvent && evt.metaKey;
+async function openView(workspace, type, openInNewTab, state) {
   const leaf = workspace.getLeaf(openInNewTab);
   await leaf.setViewState({
     type,
@@ -10119,6 +10029,223 @@ function detachLeavesOfTypeAndDisplay(workspace, type, display) {
     }
   });
 }
+
+// src/obsidian/Notice.ts
+var import_obsidian2 = require("obsidian");
+var DEFAULT_NOTICE_TIMEOUT_SECONDS = 5;
+var InfoNotice = class extends import_obsidian2.Notice {
+  constructor(message, timeout = DEFAULT_NOTICE_TIMEOUT_SECONDS) {
+    super(message, timeout * 1e3);
+    console.info(`css-editor: ${message}`);
+  }
+};
+var ErrorNotice = class extends import_obsidian2.Notice {
+  constructor(message, timeout = DEFAULT_NOTICE_TIMEOUT_SECONDS) {
+    super(message, timeout * 1e3);
+    console.error(`css-editor: ${message}`);
+  }
+};
+
+// src/modals/CssSnippetFuzzySuggestModal.ts
+var CssSnippetFuzzySuggestModal = class extends import_obsidian3.FuzzySuggestModal {
+  constructor(app, plugin) {
+    super(app);
+    this.plugin = plugin;
+    this.scope.register(["Mod"], "Enter", (evt) => {
+      var _a, _b;
+      if (!evt.isComposing && ((_b = (_a = this.chooser) == null ? void 0 : _a.useSelectedItem) == null ? void 0 : _b.call(_a, evt))) {
+        return false;
+      }
+    });
+    this.scope.register(["Shift"], "Enter", (evt) => {
+      this.selectSuggestion(
+        { item: this.inputEl.value, match: { score: 0, matches: [] } },
+        evt
+      );
+      return false;
+    });
+    this.scope.register(["Mod"], "Delete", (evt) => {
+      var _a, _b;
+      if (!evt.isComposing && ((_b = (_a = this.chooser) == null ? void 0 : _a.useSelectedItem) == null ? void 0 : _b.call(_a, evt))) {
+        return false;
+      }
+    });
+    this.scope.register([], "Tab", (evt) => {
+      if (this.chooser) {
+        const selItem = this.chooser.selectedItem;
+        const selSnippet = this.chooser.values[selItem].item;
+        const isEnabled = toggleSnippetFileState(this.app, selSnippet);
+        const selEl = this.chooser.suggestions[selItem].querySelector(
+          ".css-editor-status"
+        );
+        selEl == null ? void 0 : selEl.setText(isEnabled ? "enabled" : "disabled");
+        selEl == null ? void 0 : selEl.removeClass(isEnabled ? "disabled" : "enabled");
+        selEl == null ? void 0 : selEl.addClass(isEnabled ? "enabled" : "disabled");
+      }
+      return false;
+    });
+    this.containerEl.addClass("css-editor-quick-switcher-modal");
+    this.setPlaceholder("Find or create a CSS snippet...");
+    this.setInstructions([
+      { command: "\u2191\u2193", purpose: "to navigate" },
+      {
+        command: import_obsidian3.Platform.isMacOS ? "\u2318 \u21B5" : "ctrl \u21B5",
+        purpose: "to open in new tab"
+      },
+      { command: "shift \u21B5", purpose: "to create" },
+      {
+        command: import_obsidian3.Platform.isMacOS ? "\u2318 del" : "ctrl del",
+        purpose: "to delete"
+      },
+      { command: "tab", purpose: "to enable/disable" },
+      { command: "esc", purpose: "to dismiss" }
+    ]);
+  }
+  isEnabled(item) {
+    var _a, _b;
+    const snippetName = item.replace(".css", "");
+    const currentState = (_b = (_a = this.app.customCss) == null ? void 0 : _a.enabledSnippets) == null ? void 0 : _b.has(snippetName);
+    return currentState || false;
+  }
+  getItems() {
+    var _a;
+    if ((_a = this.app.customCss) == null ? void 0 : _a.snippets) {
+      return this.app.customCss.snippets.map((x) => `${x}.css`);
+    }
+    return [];
+  }
+  getItemText(item) {
+    return item;
+  }
+  renderSuggestion(item, el) {
+    super.renderSuggestion(item, el);
+    el.addClass("mod-complex");
+    if (el.hasChildNodes()) {
+      const existingChildren = Array.from(el.childNodes);
+      el.childNodes.forEach((child) => {
+        el.removeChild(child);
+      });
+      el.appendChild(
+        createDiv(
+          { cls: "suggestion-content" },
+          (suggestionContentEl) => {
+            suggestionContentEl.appendChild(
+              createDiv({}, (nestedEl) => {
+                existingChildren.forEach((child) => {
+                  nestedEl.appendChild(child);
+                });
+              })
+            );
+            suggestionContentEl.appendChild(
+              createDiv(
+                { cls: "css-editor-suggestion-description" },
+                (el2) => el2.appendText(
+                  `${getSnippetDirectory(this.app)}${item.item}`
+                )
+              )
+            );
+          }
+        )
+      );
+      const isEnabled = this.isEnabled(item.item);
+      const isNewElement = this.inputEl.value.trim().length > 0 && item.match.score === 0;
+      if (!isNewElement) {
+        el.appendChild(
+          createDiv(
+            {
+              cls: [
+                "suggestion-aux",
+                "css-editor-status",
+                isEnabled ? "enabled" : "disabled"
+              ]
+            },
+            (el2) => el2.appendText(isEnabled ? "enabled" : "disabled")
+          )
+        );
+      }
+    }
+    if (this.inputEl.value.trim().length > 0 && item.match.score === 0) {
+      el.appendChild(
+        createDiv({ cls: "suggestion-aux" }, (el2) => {
+          el2.appendChild(
+            createSpan({ cls: "suggestion-hotkey" }, (el3) => {
+              el3.appendText("Enter to create");
+            })
+          );
+        })
+      );
+    }
+  }
+  async selectSuggestion(value, evt) {
+    try {
+      await this.onChooseSuggestion(value, evt);
+      this.close();
+    } catch (err) {
+      if (err instanceof Error) {
+        new ErrorNotice(err.message);
+      } else {
+        new ErrorNotice("Failed to complete action. Reason unknown.");
+      }
+    }
+  }
+  async onChooseSuggestion(item, evt) {
+    const isCreateNewDueToNoSuggestion = this.inputEl.value.trim().length > 0 && item.match.score === 0;
+    if (isCreateNewDueToNoSuggestion && item.item) {
+      const openInNewTab = evt.metaKey;
+      await this.plugin.createAndOpenSnippet(item.item, openInNewTab);
+    } else {
+      await this.onChooseItem(item.item, evt);
+    }
+  }
+  onNoSuggestion() {
+    var _a, _b, _c, _d, _e, _f, _g, _h;
+    const item = this.inputEl.value.trim();
+    if (item.length > 0) {
+      (_b = (_a = this.chooser) == null ? void 0 : _a.setSuggestions) == null ? void 0 : _b.call(_a, [
+        { item, match: { score: 0, matches: [] } }
+      ]);
+      (_d = (_c = this.chooser) == null ? void 0 : _c.addMessage) == null ? void 0 : _d.call(
+        _c,
+        "No CSS snippets found. Enter to create a new one."
+      );
+    } else {
+      (_f = (_e = this.chooser) == null ? void 0 : _e.setSuggestions) == null ? void 0 : _f.call(_e, []);
+      (_h = (_g = this.chooser) == null ? void 0 : _g.addMessage) == null ? void 0 : _h.call(
+        _g,
+        "No CSS snippets found. Type to search..."
+      );
+    }
+  }
+  async onChooseItem(item, evt) {
+    if (!item)
+      return;
+    if (evt instanceof KeyboardEvent) {
+      if (evt.key === "Enter") {
+        const openInNewTab = evt.metaKey;
+        if (evt.shiftKey) {
+          await this.plugin.createAndOpenSnippet(item, openInNewTab);
+        } else {
+          openView(this.app.workspace, VIEW_TYPE_CSS, openInNewTab, {
+            filename: item
+          });
+        }
+      } else if (evt.key === "Delete") {
+        deleteSnippetFile(this.app, item);
+        detachLeavesOfTypeAndDisplay(
+          this.app.workspace,
+          VIEW_TYPE_CSS,
+          item
+        );
+        new InfoNotice(`${item} was deleted.`);
+      }
+    } else {
+      const openInNewTab = evt.metaKey;
+      openView(this.app.workspace, VIEW_TYPE_CSS, openInNewTab, {
+        filename: item
+      });
+    }
+  }
+};
 
 // node_modules/monkey-around/mjs/index.js
 function around(obj, factories) {
@@ -10174,21 +10301,55 @@ function isKeymapInfo(hotkey) {
   return !!hotkey && typeof hotkey === "object" && "key" in hotkey && typeof hotkey.key === "string" && "modifiers" in hotkey;
 }
 
+// src/modals/CssSnippetCreateModal.ts
+var import_obsidian4 = require("obsidian");
+var CssSnippetCreateModal = class extends import_obsidian4.Modal {
+  constructor(app, plugin) {
+    super(app);
+    this.value = "";
+    this.plugin = plugin;
+  }
+  onOpen() {
+    super.onOpen();
+    this.titleEl.setText("Create CSS Snippet");
+    this.containerEl.addClass("css-editor-create-modal");
+    this.buildForm();
+  }
+  buildForm() {
+    const textInput = new import_obsidian4.TextComponent(this.contentEl);
+    textInput.setPlaceholder("CSS snippet file name (ex: snippet.css)");
+    textInput.onChange((val) => this.value = val);
+    textInput.inputEl.addEventListener("keydown", (evt) => {
+      this.handleKeydown(evt);
+    });
+  }
+  async handleKeydown(evt) {
+    if (evt.key === "Escape") {
+      this.close();
+    } else if (evt.key === "Enter") {
+      try {
+        const openInNewTab = evt.metaKey;
+        await this.plugin.createAndOpenSnippet(
+          this.value,
+          openInNewTab
+        );
+        this.close();
+      } catch (err) {
+        if (err instanceof Error) {
+          new ErrorNotice(err.message);
+        } else {
+          new ErrorNotice("Failed to create file. Reason unknown.");
+        }
+      }
+    }
+  }
+};
+
 // src/main.ts
 var DEFAULT_SETTINGS = {};
 var CssEditorPlugin = class extends import_obsidian5.Plugin {
   async onload() {
     await this.loadSettings();
-    this.addCommand({
-      id: "edit-css-snippet",
-      name: "Edit CSS Snippet",
-      callback: async () => {
-        new CssSnippetFuzzySuggestModal(
-          this.app,
-          this.openCssEditorView
-        ).open();
-      }
-    });
     this.addCommand({
       id: "create-css-snippet",
       name: "Create CSS Snippet",
@@ -10197,18 +10358,46 @@ var CssEditorPlugin = class extends import_obsidian5.Plugin {
       }
     });
     this.addCommand({
-      id: "delete-css-snippet",
-      name: "Delete CSS Snippet",
+      id: "open-quick-switcher",
+      name: "Open quick switcher",
       callback: async () => {
-        new CssSnippetFuzzySuggestModal(this.app, (item) => {
-          deleteSnippetFile(this.app, item);
+        new CssSnippetFuzzySuggestModal(this.app, this).open();
+      }
+    });
+    this.addCommand({
+      id: "delete-css-snippet",
+      name: "Delete current CSS Snippet",
+      checkCallback: (checking) => {
+        const activeCssEditorView = this.app.workspace.getActiveViewOfType(CssEditorView);
+        if (!activeCssEditorView)
+          return false;
+        if (checking)
+          return true;
+        const { filename } = activeCssEditorView.getState();
+        deleteSnippetFile(this.app, filename).then(() => {
           detachLeavesOfTypeAndDisplay(
             this.app.workspace,
             VIEW_TYPE_CSS,
-            item
+            filename
           );
-          new InfoNotice(`${item} was deleted.`);
-        }).open();
+          new InfoNotice(`"${filename}" was deleted.`);
+        });
+      }
+    });
+    this.addCommand({
+      id: "toggle-css-snippet-enabled-status",
+      name: "Toggle the enabled/disabled state of current CSS snippet",
+      checkCallback: (checking) => {
+        const activeCssEditorView = this.app.workspace.getActiveViewOfType(CssEditorView);
+        if (!activeCssEditorView)
+          return false;
+        if (checking)
+          return true;
+        const { filename } = activeCssEditorView.getState();
+        const isEnabled = toggleSnippetFileState(this.app, filename);
+        new InfoNotice(
+          `"${filename}" is now ${isEnabled ? "enabled" : "disabled"}.`
+        );
       }
     });
     this.register(
@@ -10231,7 +10420,17 @@ var CssEditorPlugin = class extends import_obsidian5.Plugin {
   async saveSettings() {
     await this.saveData(this.settings);
   }
-  async openCssEditorView(filename, evt) {
-    openView(this.app.workspace, VIEW_TYPE_CSS, evt, { filename });
+  async createAndOpenSnippet(filename, openInNewTab) {
+    var _a, _b;
+    await createSnippetFile(this.app, filename, "");
+    (_b = (_a = this.app.customCss) == null ? void 0 : _a.setCssEnabledStatus) == null ? void 0 : _b.call(
+      _a,
+      filename.replace(".css", ""),
+      true
+    );
+    new InfoNotice(`${filename} was created.`);
+    openView(this.app.workspace, VIEW_TYPE_CSS, openInNewTab, {
+      filename
+    });
   }
 };
