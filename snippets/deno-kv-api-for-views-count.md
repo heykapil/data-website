@@ -19,11 +19,26 @@ deno install -A jsr:@deno/deployctl
 deployctl --help
 ```
 
-Create a new Deno fresh project or use any existing template.
+- Create a new Deno fresh project with this [github repo](https://github.com/denoland/kv_api) or use mine [existing template](https://github.com/heykapil/deno-kv-api)
 
+- Clone the repo, install the dependencies and run the project
 
+```bash
+git clone https://github.com/heykapil/deno-kv-api.git
+cd deno-kv-api
+deno task install
+deno task build && deno task start
+```
 
+- Test the api in the local environment.
 
+- Deploy this project to Deno Deploy (Must be logged in and setup the Deno KB account there)
+
+```bash
+deployctl deploy
+```
+
+- Make sure you protect the API with some kind of authentication/authorization mechanism to limit the access.
 
 
 ## Deno KV API in action
